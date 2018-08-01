@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19603" started-at="2018-08-01T10:51:47Z" finished-at="2018-08-01T10:52:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19603" started-at="2018-08-01T10:51:47Z" finished-at="2018-08-01T10:52:06Z">
+      <class name="com.c2info.EG360_DashboardTCs.HeaderValues">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.EG360_DashboardTCs.HeaderValues@42f93a98]" name="setup" is-config="true" duration-ms="12639" started-at="2018-08-01T16:21:47Z" finished-at="2018-08-01T16:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_DashboardTCs.HeaderValues@42f93a98]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2018-08-01T16:22:00Z" finished-at="2018-08-01T16:22:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.c2info.EG360_DashboardTCs.HeaderValues.verifyYesterDaySalesValue() throws java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyYesterDaySalesValue()[pri:0, instance:com.c2info.EG360_DashboardTCs.HeaderValues@42f93a98]" name="verifyYesterDaySalesValue" duration-ms="5981" started-at="2018-08-01T16:22:00Z" finished-at="2018-08-01T16:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYesterDaySalesValue -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_DashboardTCs.HeaderValues@42f93a98]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-08-01T16:22:05Z" finished-at="2018-08-01T16:22:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyYesterDaySalesValue status=SUCCESS method=HeaderValues.verifyYesterDaySalesValue()[pri:0, instance:com.c2info.EG360_DashboardTCs.HeaderValues@42f93a98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.EG360_DashboardTCs.HeaderValues@42f93a98]" name="endTest" is-config="true" duration-ms="961" started-at="2018-08-01T16:22:05Z" finished-at="2018-08-01T16:22:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.c2info.EG360_DashboardTCs.HeaderValues -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
