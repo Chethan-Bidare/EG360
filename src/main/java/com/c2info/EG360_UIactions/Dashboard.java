@@ -34,6 +34,9 @@ public class Dashboard extends TestBase{
 	@FindBy(xpath="//div[3]/div/div[2]/div[2]/div[3]/span")
 	WebElement yesterdaySale ;
 	
+	@FindBy(xpath="//div[4]/div/div[2]/div[2]/div[3]/span")
+	WebElement yesterdayPurchase ;
+	
 	@FindBy(xpath="html/body/div[4]/div[2]/div[1]/div/div[2]/div/div[1]/div[2]/div")
 	WebElement currentMonthPurchase ;
 	
@@ -82,5 +85,13 @@ public class Dashboard extends TestBase{
 		double yestSale = Double.parseDouble(yestSales);
 		
 		return yestSale ;
+	}
+	
+	public double getYesterdayPurchase(){
+		String yestPur = yesterdayPurchase.getText();
+		yestPur = yestPur.replaceAll("L","").trim();
+		double yestPurchase = Double.parseDouble(yestPur);
+		
+		return yestPurchase ;
 	}
 }

@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.c2info.EG360_DashboardTCs.HeaderValues">
+      <class name="com.c2info.EG360_DashboardTCs.YesterDayValues">
         <methods>
+          <include name="verifyYesterdayPurchaseValue"/>
           <include name="beforeMethod"/>
-          <include name="verifyCurrentMonthSalesValue"/>
           <include name="setup"/>
           <include name="endTest"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.c2info.EG360_DashboardTCs.HeaderValues -->
+      </class> <!-- com.c2info.EG360_DashboardTCs.YesterDayValues -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

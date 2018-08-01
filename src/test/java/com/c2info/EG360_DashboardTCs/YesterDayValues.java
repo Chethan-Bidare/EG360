@@ -17,9 +17,9 @@ import com.c2info.EG360_Database.Database;
 import com.c2info.EG360_TestBase.TestBase;
 import com.c2info.EG360_UIactions.Dashboard;
 
-public class HeaderValues extends TestBase {
+public class YesterDayValues extends TestBase {
 
-	public static final Logger log = Logger.getLogger(HeaderValues.class.getName());
+	public static final Logger log = Logger.getLogger(YesterDayValues.class.getName());
 	
 	
 	@BeforeClass
@@ -52,4 +52,37 @@ public class HeaderValues extends TestBase {
 		System.out.println("actual value = "+actualValue);
 		Assert.assertEquals(value, actualValue);
 	}
+	
+	@Test
+	public void verifyYesterdayPurchaseValue() throws SQLException{
+		Dashboard dashboard = new Dashboard();
+		Database db = new Database();
+		String dbValue= null ;
+		Calendar cal = Calendar.getInstance();
+		cal.add(Calendar.DAY_OF_YEAR, -1);
+		SimpleDateFormat formatter = new SimpleDateFormat("YYYY-MM-dd");
+		String yestDate = formatter.format(cal.getTime());
+		String query = "select sum(t.purtot)-sum(t.purRetTot) from (SELECT sum(n_total) as purtot,0 as purRetTot FROM pur_mst where d_date='"+yestDate+"' and c_prefix='K' union SELECT 0 as purtot,sum(n_total) as purRetTot FROM pur_mst where d_date='"+yestDate+"' and c_prefix='I')t" ;
+		ResultSet data = db.getData(query);
+		while(data.next()){
+			 dbValue = data.getString(1);
+		}
+		double dbVal = Double.parseDouble(dbValue);
+		dbVal = dbVal / 100000 ;
+		double actualValue = Math.round(dbVal*100)/100d ;
+		double value = dashboard.getYesterdayPurchase();
+		System.out.println(" value = "+value);
+		System.out.println("actual value = "+actualValue);
+		Assert.assertEquals(value, actualValue);
+	}
+	
+	
+	/*select sum(t.purtot)-sum(t.purRetTot) 
+	from (SELECT sum(n_total) as purtot,0 as purRetTot 
+			FROM pur_mst 
+			where d_date='"+yestDate+"' and c_prefix='K' 
+			union
+			SELECT 0 as purtot,sum(n_total) as purRetTot 
+			FROM pur_mst 
+			where d_date='"+yestDate+"' and c_prefix='I')t*/
 }
