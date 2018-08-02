@@ -20,8 +20,7 @@ import com.c2info.EG360_UIactions.Dashboard;
 public class YesterDayValues extends TestBase {
 
 	public static final Logger log = Logger.getLogger(YesterDayValues.class.getName());
-	
-	
+
 	@BeforeClass
 	public void setup() throws IOException{
 		init();
