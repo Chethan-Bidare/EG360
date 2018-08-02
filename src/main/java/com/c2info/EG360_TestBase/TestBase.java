@@ -5,6 +5,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -44,7 +46,7 @@ public class TestBase {
 	
 	static{
 		Calendar calendar = Calendar.getInstance();
-		SimpleDateFormat formatter = new SimpleDateFormat("DD_MM_YYYY_HH_MM_SS");
+		SimpleDateFormat formatter = new SimpleDateFormat("dd_MM_YYYY_HH_mm_ss");
 		extent = new ExtentReports(System.getProperty("user.dir")+"//src//main//java//com//c2info//EG360_Reports//"+formatter.format(calendar.getTime())+".html",false);
 	}
 	
@@ -138,7 +140,7 @@ public String getScreenshot(String methodName){
 		}
 		else if(result.getStatus()==ITestResult.FAILURE){
 			test.log(LogStatus.FAIL, result.getName()+" Test is Failed");
-			test.addScreenCapture(getScreenshot(Thread.currentThread().getStackTrace()[1].getMethodName()));
+			//test.log(LogStatus.FAIL, test.addScreenCapture(getScreenshot(Thread.currentThread().getStackTrace()[1].getMethodName())));
 		}
 		else if(result.getStatus()==ITestResult.SKIP){
 			test.log(LogStatus.SKIP, result.getName()+ "Test is skipped");
@@ -157,7 +159,7 @@ public String getScreenshot(String methodName){
 	
 	@AfterMethod
 	public void afterMethod(ITestResult result){
-		
+		getResult(result);
 	}
 	
 	@AfterClass(alwaysRun=true)
@@ -171,4 +173,41 @@ public String getScreenshot(String methodName){
 			e.printStackTrace();
 		}
 	}
+	
+	
+	public LocalDate getWeekStartDate(){
+		LocalDate today = LocalDate.now();
+		LocalDate sundayDate= today ;
+		
+		while(sundayDate.getDayOfWeek() != DayOfWeek.SUNDAY){
+			sundayDate = sundayDate.minusDays(1);
+		}
+		return sundayDate ;
+	}
+	
+	public LocalDate getMonthStartDate(){
+		LocalDate today = LocalDate.now();
+
+		LocalDate startDate = today.withDayOfMonth(1);
+		return startDate;
+	}
+	
+	public LocalDate getMonthEndDate(){
+		LocalDate today = LocalDate.now();
+		LocalDate endDate = today.withDayOfMonth(today.lengthOfMonth());
+		return endDate ;
+	}
+	
+	
+	public LocalDate getWeekEndDate(){
+		LocalDate today = LocalDate.now();
+		LocalDate saturdayDate= today ;
+		while(saturdayDate.getDayOfWeek() != DayOfWeek.SATURDAY){
+			saturdayDate = saturdayDate.plusDays(1);
+		}
+		return saturdayDate ;
+	}
+	
+	
+	
 }

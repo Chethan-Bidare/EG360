@@ -31,11 +31,53 @@ public class Dashboard extends TestBase{
 	@FindBy(id="otp_check")
 	WebElement verifyOTPbutton ;
 	
+	@FindBy(xpath="//div[3]/div/div[2]/div[1]/div[3]/span")
+	WebElement todaySale ;
+	
+	@FindBy(xpath="//div[4]/div/div[2]/div[1]/div[3]/span")
+	WebElement todayPurchase ;
+	
+	@FindBy(xpath="//div[5]/div/div[2]/div[1]/div[3]/span")
+	WebElement todayGRN ;
+	
+	@FindBy(xpath="//div[6]/div/div[2]/div[1]/div[3]/span")
+	WebElement todayGDN ;
+	
 	@FindBy(xpath="//div[3]/div/div[2]/div[2]/div[3]/span")
 	WebElement yesterdaySale ;
 	
 	@FindBy(xpath="//div[4]/div/div[2]/div[2]/div[3]/span")
 	WebElement yesterdayPurchase ;
+	
+	@FindBy(xpath="//div[5]/div/div[2]/div[2]/div[3]/span")
+	WebElement yesterdayGRN ;
+	
+	@FindBy(xpath="//div[6]/div/div[2]/div[2]/div[3]/span")
+	WebElement yesterdayGDN ;
+	
+	@FindBy(xpath="//div[3]/div/div[2]/div[3]/div[3]/span")
+	WebElement weeklySale ;
+	
+	@FindBy(xpath="//div[4]/div/div[2]/div[3]/div[3]/span")
+	WebElement weeklyPurchase ;
+	
+	@FindBy(xpath="//div[5]/div/div[2]/div[3]/div[3]/span")
+	WebElement weeklyGRN ;
+	
+	@FindBy(xpath="//div[6]/div/div[2]/div[3]/div[3]/span")
+	WebElement weeklyGDN ;
+	
+	@FindBy(xpath="//div[3]/div/div[2]/div[4]/div[3]/span")
+	WebElement MonthlySales ;
+	
+	@FindBy(xpath="//div[4]/div/div[2]/div[4]/div[3]/span")
+	WebElement MonthlyPurchase ;
+	
+	@FindBy(xpath="//div[5]/div/div[2]/div[4]/div[3]/span")
+	WebElement MonthlyGRN ;
+	
+	@FindBy(xpath="//div[6]/div/div[2]/div[4]/div[3]/span")
+	WebElement MonthlyGDN ;
 	
 	@FindBy(xpath="html/body/div[4]/div[2]/div[1]/div/div[2]/div/div[1]/div[2]/div")
 	WebElement currentMonthPurchase ;
@@ -83,7 +125,6 @@ public class Dashboard extends TestBase{
 		String yestSales = yesterdaySale.getText();
 		yestSales = yestSales.replaceAll("L","").trim();
 		double yestSale = Double.parseDouble(yestSales);
-		
 		return yestSale ;
 	}
 	
@@ -91,7 +132,104 @@ public class Dashboard extends TestBase{
 		String yestPur = yesterdayPurchase.getText();
 		yestPur = yestPur.replaceAll("L","").trim();
 		double yestPurchase = Double.parseDouble(yestPur);
-		
 		return yestPurchase ;
+	}
+	
+	public double getYesterdayGRN(){
+		String yestGRN = yesterdayGRN.getText();
+		yestGRN = yestGRN.replaceAll("L","").trim();
+		double yesterGRN = Double.parseDouble(yestGRN);
+		return yesterGRN ;
+	}
+	
+	public double getYesterdayGDN(){
+		String yestGDN = yesterdayGDN.getText();
+		yestGDN = yestGDN.replaceAll("L","").trim();
+		double yesterGDN = Double.parseDouble(yestGDN);
+		return yesterGDN ;
+	}
+	
+	public double getWeeklySales(){
+		String WeeklySales = weeklySale.getText();
+		WeeklySales = WeeklySales.replaceAll("L","").trim();
+		double WeekSales = Double.parseDouble(WeeklySales);
+		return WeekSales ;
+	}
+	
+	public double getWeeklyPurchase(){
+		String WeeklyPur = weeklyPurchase.getText();
+		WeeklyPur = WeeklyPur.replaceAll("L","").trim();
+		double WeekPurchase = Double.parseDouble(WeeklyPur);
+		return WeekPurchase ;
+	}
+	
+	public double getWeeklyGDN(){
+		String WeeklyGDN = weeklyGDN.getText();
+		WeeklyGDN = WeeklyGDN.replaceAll("L","").trim();
+		double WeekGDN = Double.parseDouble(WeeklyGDN);
+		return WeekGDN ;
+	}
+	
+	public double getWeeklyGRN(){
+		String WeeklyGRN = weeklyGRN.getText();
+		WeeklyGRN = WeeklyGRN.replaceAll("L","").trim();
+		double WeekGRN = Double.parseDouble(WeeklyGRN);
+		return WeekGRN ;
+	}
+	
+	public double getMonthlySales(){
+		String monthlySales = MonthlySales.getText();
+		monthlySales = monthlySales.replaceAll("L","").trim();
+		double monthSales = Double.parseDouble(monthlySales);
+		return monthSales ;
+	}
+	
+	public double getMonthlyPurchase(){
+		String monthlyPurchase =MonthlyPurchase.getText();
+		monthlyPurchase = monthlyPurchase.replaceAll("L","").trim();
+		double monthPur = Double.parseDouble(monthlyPurchase);
+		return monthPur ;
+	}
+	
+	public double getMonthlyGRN(){
+		String monthlyGRN = MonthlyGRN.getText();
+		monthlyGRN = monthlyGRN.replaceAll("L","").trim();
+		double monthGRN = Double.parseDouble(monthlyGRN);
+		return monthGRN ;
+	}
+	
+	public double getMonthlyGDN(){
+		String monthlyGDN = MonthlyGDN.getText();
+		monthlyGDN = monthlyGDN.replaceAll("L","").trim();
+		double monthGDN = Double.parseDouble(monthlyGDN);
+		return monthGDN ;
+	}
+	
+	public double getTodaySales(){
+		String dailySales = todaySale.getText();
+		dailySales = dailySales.replaceAll("L","").trim();
+		double todaySales = Double.parseDouble(dailySales);
+		return todaySales ;
+	}
+	
+	public double getTodayPurchase(){
+		String dailyPurchase = todayPurchase.getText();
+		dailyPurchase = dailyPurchase.replaceAll("L","").trim();
+		double todayPur = Double.parseDouble(dailyPurchase);
+		return todayPur ;
+	}
+	
+	public double getTodayGDN(){
+		String dailyGDN = todayGDN.getText();
+		dailyGDN = dailyGDN.replaceAll("L","").trim();
+		double todayGDN = Double.parseDouble(dailyGDN);
+		return todayGDN ;
+	}
+	
+	public double getTodayGRN(){
+		String dailyGRN = todayGRN.getText();
+		dailyGRN = dailyGRN.replaceAll("L","").trim();
+		double todayGRN = Double.parseDouble(dailyGRN);
+		return todayGRN ;
 	}
 }
