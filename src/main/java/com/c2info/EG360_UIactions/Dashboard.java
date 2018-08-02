@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.c2info.EG360_TestBase.TestBase;
 
 public class Dashboard extends TestBase{
-
+//git push check
 	
 	public static final Logger log = Logger.getLogger(Dashboard.class.getName());
 	WebDriverWait wait = new WebDriverWait(driver,120);
