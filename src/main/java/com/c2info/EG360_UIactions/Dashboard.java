@@ -1,10 +1,6 @@
 package com.c2info.EG360_UIactions;
 
-import java.text.DecimalFormat;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
-import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

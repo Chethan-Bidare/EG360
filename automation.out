@@ -44,3 +44,80 @@
 2018-08-02 15:38:28 INFO  TestBase:93 - ========== Initialiazation Completed =================
 2018-08-02 15:55:39 INFO  TestBase:93 - ========== Initialiazation Completed =================
 2018-08-02 21:38:25 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 09:41:48 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 09:43:43 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 09:49:50 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 09:58:07 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 10:00:06 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 10:06:50 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 10:10:01 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 10:20:16 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 11:14:34 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 11:23:43 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 11:28:10 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 11:43:15 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 11:50:17 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 11:54:01 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 11:58:23 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 12:05:21 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 12:07:15 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 12:23:17 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 14:46:09 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 15:47:40 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 15:47:44 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-03 15:49:41 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-03 15:49:41 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-03 15:50:50 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-03 15:50:50 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-03 15:51:00 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-03 15:51:00 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-03 15:51:19 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-03 15:51:19 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-03 15:51:29 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-03 15:51:29 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-03 15:51:48 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-03 15:51:48 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-03 15:51:59 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-03 15:51:59 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-03 15:52:09 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-03 15:52:09 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-03 15:52:19 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-03 15:52:19 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-03 15:52:29 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-03 15:52:29 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-03 15:52:40 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-03 15:52:40 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-03 15:52:57 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-03 15:52:57 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-03 15:54:15 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-03 15:59:29 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 15:59:35 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-03 16:01:11 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-03 16:01:11 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-03 16:02:18 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-03 16:02:18 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-03 16:03:17 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-03 16:03:17 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-03 16:04:17 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-03 16:04:17 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-03 16:05:17 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-03 16:05:17 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-03 16:05:26 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-03 16:05:26 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-03 16:06:27 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-03 16:06:27 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-03 16:07:25 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-03 16:07:25 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-03 16:08:26 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-03 16:08:26 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-03 16:09:26 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-03 16:09:26 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-03 16:10:24 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-03 16:10:24 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-03 16:11:24 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-03 16:11:24 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-03 16:12:23 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-03 16:39:22 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 16:39:25 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-03 16:42:33 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-03 16:42:33 INFO  TestBase:158 - Test Started :verifyBranchShortName

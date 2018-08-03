@@ -155,11 +155,13 @@ public String getScreenshot(String methodName){
 	public void beforeMethod(Method result){
 		test = extent.startTest(result.getName());
 		test.log(LogStatus.INFO, result.getName()+" Test is Started");
+		log.info("Test Started :"+result.getName());
 	}
 	
 	@AfterMethod
 	public void afterMethod(ITestResult result){
 		getResult(result);
+		log.info("Test Finished :"+result.getName());
 	}
 	
 	@AfterClass(alwaysRun=true)

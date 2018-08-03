@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import com.c2info.EG360_TestBase.TestBase;
 
@@ -18,6 +19,21 @@ public class SalesReports extends TestBase{
 	@FindBy(xpath="//div[@class='sidebar-toggler']")
 	WebElement sideBar ;
 	
+	@FindBy(id="period")
+	WebElement period ;
+	
+	@FindBy(id="brlevel")
+	WebElement branchLevel ;
+	
+	@FindBy(id="types")
+	WebElement type ;
+	
+	@FindBy(id="datetype")
+	WebElement date ;
+	
+	@FindBy(id="viewreport")
+	WebElement viewreportButton ;
+	
 	public SalesReports(){
 		PageFactory.initElements(driver, this);
 	}
@@ -26,22 +42,61 @@ public class SalesReports extends TestBase{
 		sideBar.click();
 	}
 	
-	public void clickOnMainMenu(String menuName){
-		List<WebElement> menus = driver.findElements(By.tagName("li"));
-		for(WebElement we : menus){
-			if(we.getText().equalsIgnoreCase(menuName)){
-				we.click();
+	public void clickOnMainMenu(String menuName){	
+		int size = driver.findElements(By.xpath("html/body/div[3]/div/ul/li")).size();
+		for(int i=1; i<=size; i++){
+			WebElement temp = driver.findElement(By.xpath("html/body/div[3]/div/ul/li["+i+"]"));
+			if(temp.getText().trim().equalsIgnoreCase(menuName)){
+				temp.click();
+				break ;
 			}
 		}
 	}
 	
-	public void clickOnSubMenu(String subMenu){
-		List<WebElement> subMenus = driver.findElements(By.tagName("li"));
-		for(WebElement we : subMenus){
-			if(we.getText().equalsIgnoreCase(subMenu)){
-				we.click();
+	public void clickOnReportsSubMenu(String subMenu){
+		int size = driver.findElements(By.xpath("html/body/div[3]/div/ul/li[5]/ul/li")).size();
+		for(int i=1; i<=size; i++){
+			WebElement temp = driver.findElement(By.xpath("html/body/div[3]/div/ul/li[5]/ul/li["+i+"]/a"));
+			if(temp.getText().trim().equalsIgnoreCase(subMenu)){
+				temp.click();
+				break ;
 			}
 		}
+	}
+	
+	public void clickOnSavingsReportsSubMenu(String subMenu){
+		int size = driver.findElements(By.xpath("html/body/div[3]/div/ul/li[6]/ul/li")).size();
+		for(int i=1; i<=size; i++){
+			WebElement temp = driver.findElement(By.xpath("html/body/div[3]/div/ul/li[6]/ul/li["+i+"]/a"));
+			if(temp.getText().trim().equalsIgnoreCase(subMenu)){
+				temp.click();
+				break ;
+			}
+		}
+	}
+	
+	public void selectPeriodDropdown(String periodType){
+		Select periodDropdown = new Select(period);
+		periodDropdown.selectByVisibleText(periodType);
+	}
+	
+	public void selectBranchLevelDropdown(String branchLevel){
+		Select brLevelDropdown = new Select(this.branchLevel);
+		brLevelDropdown.deselectByVisibleText(branchLevel);
+	}
+	
+	public void selectTypeDropdown(String type){
+		Select typeDropdown = new Select(this.type);
+		typeDropdown.selectByVisibleText(type);
+	}
+	
+	public void selectDateDropdown(String date){
+		Select dateDropdown = new Select(this.date);
+		dateDropdown.selectByVisibleText(date);
+	}
+	
+	public void clickOnViewReportButton(){
+		viewreportButton.click();
 	}
 	
 	public HashMap<String,HashMap<String,String>> getBranchWiseSalesDetails(){
