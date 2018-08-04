@@ -102,13 +102,13 @@ public class SalesReports extends TestBase{
 	public HashMap<String,HashMap<String,String>> getBranchWiseSalesDetails(){
 		
 		HashMap<String, HashMap<String,String>> branchWiseSalesDetails = new HashMap<String, HashMap<String,String>>();
-		int rowSize = driver.findElements(By.xpath(".//*[@id='example']/tbody/tr")).size();
+		int rowSize =3 ; 
+				//driver.findElements(By.xpath(".//*[@id='example']/tbody/tr")).size();
 		for(int i=1; i<=rowSize; i++){
 			String brCode = driver.findElement(By.xpath(".//*[@id='example']/tbody/tr["+i+"]/td[1]")).getText();
 			int colSize = driver.findElements(By.xpath(".//*[@id='example']/tbody/tr[1]/td")).size();
 			HashMap<String, String> tempDetails = new HashMap<String, String>();
 			for(int j=2; j<=colSize; j++){
-				
 				String colName =driver.findElement(By.xpath(".//*[@id='trid']/th["+j+"]")).getText(); 
 				String cellValue =driver.findElement(By.xpath(".//*[@id='example']/tbody/tr["+i+"]/td["+j+"]")).getText(); 
 				tempDetails.put(colName, cellValue);

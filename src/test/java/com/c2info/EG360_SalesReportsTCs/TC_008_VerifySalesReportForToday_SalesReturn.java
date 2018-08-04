@@ -25,7 +25,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		db.login(OR.getProperty("MobileNum"), OR.getProperty("otp"));
 	}
 	
-	@Test(priority=1)
+	@Test(priority=93)
 	public void verifyBranchName() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -39,7 +39,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		waitforPageToLoad();
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
-			brCode= str ;
+			brCode = str ;
 			HashMap<String, String> values = new HashMap<String, String>();
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectedValue = values.get("Branch Name");
@@ -53,7 +53,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		}
 	}
 	
-	@Test(priority=2)
+	@Test(priority=94)
 	public void verifyBranchShortName() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -75,7 +75,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		}
 	}
 	
-	@Test (priority=3)
+	@Test (priority=95)
 	public void verifyBranchWiseNumberOfInvoices() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -99,7 +99,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 	}
 
 	
-	@Test(priority=4)
+	@Test(priority=96)
 	public void verifyBranchwiseNumberOfCustomers() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -122,7 +122,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		}
 	}
 	
-	@Test(priority=5)
+	@Test(priority=97)
 	public void verifyBranchwiseDiscAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -148,7 +148,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		}
 	}
 	
-	@Test(priority=6)
+	@Test(priority=98)
 	public void verifyBranchwiseInvoiceValAfterDisc() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -174,7 +174,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		}
 	}
 	
-	@Test(priority=7)
+	@Test(priority=99)
 	public void verifyBranchwiseInvoiceValTax() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -200,7 +200,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		}
 	}
 	
-	@Test(priority=8)
+	@Test(priority=100)
 	public void verifyBranchwiseTaxAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -226,7 +226,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		}
 	}
 	
-	@Test(priority=9)
+	@Test(priority=101)
 	public void verifyBranchwiseCGSTAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -252,7 +252,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		}
 	}
 	
-	@Test(priority=10)
+	@Test(priority=102)
 	public void verifyBranchwiseSGSTAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -278,7 +278,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		}
 	}
 	
-	@Test(priority=11)
+	@Test(priority=103)
 	public void verifyBranchwiseIGSTAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -304,7 +304,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		}
 	}
 	
-	@Test(priority=12)
+	@Test(priority=104)
 	public void verifyBranchwiseCessAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -330,7 +330,7 @@ public class TC_008_VerifySalesReportForToday_SalesReturn extends TestBase{
 		}
 	}
 	
-	@Test(priority=13)
+	@Test(priority=105)
 	public void verifyBranchwiseServiceChargeAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();

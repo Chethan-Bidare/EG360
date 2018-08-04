@@ -24,7 +24,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 		db.login(OR.getProperty("MobileNum"), OR.getProperty("otp"));
 	}
 	
-	@Test(priority=1)
+	@Test(priority=145)
 	public void verifyBranchName() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -52,7 +52,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 		}
 	}
 	
-	@Test(priority=2)
+	@Test(priority=146)
 	public void verifyBranchShortName() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -74,7 +74,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 		}
 	}
 	
-	@Test (priority=3)
+	@Test (priority=147)
 	public void verifyBranchWiseNumberOfInvoices() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -97,7 +97,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 	}
 
 	
-	@Test(priority=4)
+	@Test(priority=148)
 	public void verifyBranchwiseNumberOfCustomers() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -119,7 +119,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 		}
 	}
 	
-	@Test(priority=5)
+	@Test(priority=149)
 	public void verifyBranchwiseDiscAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -144,7 +144,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 		}
 	}
 	
-	@Test(priority=6)
+	@Test(priority=150)
 	public void verifyBranchwiseInvoiceValAfterDisc() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -169,7 +169,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 		}
 	}
 	
-	@Test(priority=7)
+	@Test(priority=151)
 	public void verifyBranchwiseInvoiceValTax() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -194,7 +194,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 		}
 	}
 	
-	@Test(priority=8)
+	@Test(priority=152)
 	public void verifyBranchwiseTaxAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -219,7 +219,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 		}
 	}
 	
-	@Test(priority=9)
+	@Test(priority=153)
 	public void verifyBranchwiseCGSTAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -244,7 +244,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 		}
 	}
 	
-	@Test(priority=10)
+	@Test(priority=154)
 	public void verifyBranchwiseSGSTAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -269,7 +269,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 		}
 	}
 	
-	@Test(priority=11)
+	@Test(priority=155)
 	public void verifyBranchwiseIGSTAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -294,7 +294,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 		}
 	}
 	
-	@Test(priority=12)
+	@Test(priority=156)
 	public void verifyBranchwiseCessAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
@@ -319,7 +319,7 @@ public class TC_012_VerifySalesReportForLastMonth_SalesReturn extends TestBase {
 		}
 	}
 	
-	@Test(priority=13)
+	@Test(priority=157)
 	public void verifyBranchwiseServiceChargeAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();

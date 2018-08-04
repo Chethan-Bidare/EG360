@@ -151,3 +151,543 @@
 2018-08-04 12:45:13 INFO  TestBase:100 - URL loaded and window maximized
 2018-08-04 12:45:13 INFO  TestBase:93 - ========== Initialiazation Completed =================
 2018-08-04 12:45:21 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:19:06 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:19:12 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:20:55 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:20:55 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:20:57 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:21:01 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:21:01 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:21:05 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:22:26 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:22:26 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:22:28 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:22:32 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:22:32 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:22:36 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:23:54 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:23:54 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:23:56 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:24:00 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:24:00 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:24:05 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:25:52 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:25:52 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:25:54 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:25:58 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:25:58 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:26:08 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:27:51 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:27:51 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:27:53 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:27:57 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:27:57 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:28:02 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:29:25 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:29:25 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:29:27 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:29:31 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:29:31 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:29:35 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:31:19 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:31:19 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:31:21 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:31:26 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:31:26 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:31:30 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:33:01 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:33:01 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:33:03 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:33:07 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:33:07 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:33:12 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:34:45 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:34:45 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:34:47 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:34:52 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:34:52 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:34:56 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:36:30 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:36:30 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:36:32 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:36:36 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:36:36 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:36:40 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:38:09 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:38:09 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:38:11 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:38:15 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:38:15 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:38:20 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:39:48 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:39:48 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:39:50 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:39:57 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:39:57 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:40:01 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:41:08 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:41:08 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 13:41:10 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 13:41:16 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 13:41:16 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 13:41:20 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 13:42:05 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 13:42:05 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:42:26 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:42:26 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:42:48 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:42:48 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:43:10 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:43:10 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:43:32 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:43:32 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:43:54 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:43:54 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:45:15 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:45:15 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:46:22 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:46:22 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:47:27 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:47:27 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:48:31 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:48:31 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:49:35 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:49:35 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:50:42 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:50:42 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:51:46 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:51:46 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:52:52 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:52:52 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 13:54:02 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 13:54:02 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:54:14 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:54:14 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:54:26 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:54:26 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:54:39 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:54:39 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:54:52 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:54:52 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:55:02 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:55:02 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:57:03 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:57:03 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:58:03 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:58:03 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:59:03 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 13:59:03 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:00:03 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:00:03 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:01:03 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:01:03 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:02:03 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:02:03 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:03:03 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:03:03 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:04:03 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:04:03 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:05:03 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:05:03 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:06:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:06:03 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:07:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:07:03 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:08:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:08:03 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:09:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:09:03 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:10:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:10:03 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:11:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:11:03 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:12:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:12:03 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:13:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:13:03 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:14:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:14:03 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:15:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:15:03 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:16:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:16:04 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:17:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:17:04 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:18:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:18:04 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:19:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:19:04 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 14:20:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 14:20:04 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 14:21:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 14:21:04 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 14:22:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 14:22:04 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 14:23:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 14:23:04 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 14:24:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 14:24:04 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 14:25:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 14:25:04 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 14:26:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 14:26:04 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 14:27:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 14:27:04 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 14:28:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 14:28:04 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 14:29:37 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 14:29:41 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 14:31:51 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 14:31:51 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 14:31:53 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 14:31:57 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 14:31:57 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 14:32:01 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 14:35:08 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 14:35:08 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 14:35:10 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 14:35:14 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 14:35:14 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 14:35:21 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 14:38:29 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 14:38:29 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 14:38:31 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 14:38:36 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 14:38:36 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 14:38:40 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 14:40:32 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 14:40:32 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 14:40:34 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 14:40:39 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 14:40:39 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 14:40:43 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 14:42:24 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 14:42:24 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 14:42:26 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 14:42:30 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 14:42:30 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 14:42:34 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 14:55:35 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 14:55:40 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 14:56:15 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 14:56:15 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 14:56:21 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 14:56:21 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:56:28 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 14:56:28 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:56:34 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 14:56:34 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 14:56:40 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 14:56:40 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 14:56:47 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 14:56:47 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-04 14:56:53 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-04 14:56:53 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-04 14:57:00 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-04 14:57:00 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-04 14:57:07 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-04 14:57:07 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-04 14:57:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-04 14:57:13 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-04 14:57:20 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-04 14:57:20 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-04 14:57:26 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-04 14:57:26 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-04 14:57:33 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-04 14:58:33 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 14:58:37 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 14:59:06 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 14:59:06 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 14:59:08 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 14:59:12 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 14:59:12 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 14:59:16 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 14:59:45 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 14:59:45 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 14:59:47 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 14:59:52 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 14:59:52 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 14:59:56 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 15:00:25 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 15:00:25 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 15:00:27 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 15:00:31 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 15:00:31 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 15:00:36 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 15:01:05 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 15:01:05 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 15:01:06 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 15:01:11 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 15:01:11 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 15:01:15 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 15:01:44 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 15:01:44 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 15:01:46 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 15:01:51 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 15:01:51 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 15:01:55 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 15:02:24 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 15:02:24 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 15:02:26 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 15:02:30 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 15:02:30 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 15:02:35 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 15:03:07 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 15:03:07 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 15:03:10 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 15:03:10 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 15:03:13 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 15:03:13 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 15:03:16 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 15:03:16 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 15:03:19 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 15:03:19 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 15:03:22 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 15:03:22 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 15:03:25 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 15:03:25 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 15:03:28 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 15:03:28 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:31 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:31 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:34 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:34 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:37 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:37 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:40 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:40 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:43 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:43 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:46 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:46 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:49 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:03:49 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:03:52 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:03:52 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:03:55 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:03:55 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:03:58 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:03:58 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:04:01 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:04:01 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:04:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:04:04 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:04:07 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:04:07 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:04:10 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:04:10 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 15:04:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 15:04:13 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 15:04:16 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 15:04:16 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 15:04:19 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 15:04:19 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 15:04:22 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 15:04:22 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 15:04:25 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 15:04:25 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 15:04:28 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 15:04:28 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 15:04:31 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 15:04:31 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:34 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:34 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:37 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:37 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:40 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:40 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:43 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:43 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:46 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:46 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:49 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:49 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:52 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:04:52 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-04 15:04:55 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-04 15:04:55 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-04 15:04:58 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-04 15:04:58 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-04 15:05:01 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-04 15:05:01 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-04 15:05:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-04 15:05:04 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-04 15:05:07 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-04 15:05:07 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-04 15:05:10 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-04 15:05:10 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-04 15:05:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-04 15:05:13 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-04 15:05:16 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-04 15:05:16 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-04 15:05:19 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-04 15:05:19 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-04 15:05:23 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-04 15:05:23 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-04 15:05:26 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-04 15:05:26 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-04 15:05:29 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-04 15:05:29 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-04 15:05:32 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-04 15:05:32 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-04 15:05:34 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-04 15:05:34 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:38 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:38 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:41 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:41 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:43 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:43 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:47 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:47 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:50 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:50 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:53 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:53 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:55 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-04 15:05:55 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-04 15:05:58 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-04 15:05:58 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-04 15:06:01 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-04 15:06:01 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-04 15:06:04 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-04 15:06:04 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-04 15:06:07 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-04 15:06:07 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-04 15:06:10 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-04 15:06:10 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-04 15:06:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-04 15:06:13 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-04 15:06:16 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-04 15:06:16 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:19 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:19 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:22 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:22 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:25 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:25 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:28 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:28 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:31 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:31 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:34 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:34 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:37 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-04 15:06:37 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-04 15:06:40 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-04 15:06:40 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-04 15:06:43 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-04 15:06:43 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-04 15:06:46 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-04 15:06:46 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-04 15:06:49 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-04 15:06:49 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-04 15:06:52 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-04 15:06:52 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-04 15:06:55 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-04 15:06:55 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-04 15:06:58 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-04 15:06:58 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:07:01 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:38:51 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 15:38:54 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 15:42:02 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 15:42:02 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 15:43:02 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 15:43:02 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:44:02 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 15:44:02 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:45:02 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 15:45:02 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 15:46:02 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 15:46:02 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:47:02 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 15:47:02 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-04 15:48:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-04 15:48:03 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-04 15:49:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-04 15:49:03 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-04 15:50:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-04 15:50:03 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-04 15:51:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-04 15:51:03 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-04 15:52:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-04 15:52:03 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-04 15:53:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-04 15:53:03 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:54:03 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-04 15:54:03 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 15:54:05 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 15:54:10 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 15:54:10 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 15:54:14 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 15:56:55 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 15:56:59 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 16:00:06 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 16:00:06 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 16:00:30 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 16:00:30 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 16:00:30 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 16:00:30 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 16:00:30 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 16:00:30 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 16:00:30 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 16:00:30 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 16:00:30 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 16:00:30 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-04 16:00:30 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-04 16:00:30 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-04 16:00:30 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-04 16:00:30 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-04 16:00:30 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-04 16:00:30 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-04 16:00:30 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-04 16:00:30 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-04 16:00:30 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-04 16:00:30 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-04 16:00:30 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-04 16:00:30 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-04 16:00:30 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-04 16:00:32 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 16:00:34 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 16:00:39 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 16:00:39 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 16:00:43 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 16:03:13 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchShortName
+2018-08-04 16:03:13 INFO  TestBase:158 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-04 16:03:13 INFO  TestBase:158 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-04 16:03:13 INFO  TestBase:158 - Test Started :verifyBranchwiseDiscAmount
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-04 16:03:13 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValAfterDisc
+2018-08-04 16:03:13 INFO  TestBase:158 - Test Started :verifyBranchwiseInvoiceValTax
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseInvoiceValTax
+2018-08-04 16:03:13 INFO  TestBase:158 - Test Started :verifyBranchwiseTaxAmount
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseTaxAmount
+2018-08-04 16:03:13 INFO  TestBase:158 - Test Started :verifyBranchwiseCGSTAmount
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseCGSTAmount
+2018-08-04 16:03:13 INFO  TestBase:158 - Test Started :verifyBranchwiseSGSTAmount
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseSGSTAmount
+2018-08-04 16:03:13 INFO  TestBase:158 - Test Started :verifyBranchwiseIGSTAmount
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseIGSTAmount
+2018-08-04 16:03:13 INFO  TestBase:158 - Test Started :verifyBranchwiseCessAmount
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
+2018-08-04 16:03:13 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
+2018-08-04 16:03:13 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-04 16:03:16 INFO  TestBase:57 - OR property file loaded successfully
