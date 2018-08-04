@@ -15,7 +15,7 @@ import com.c2info.EG360_TestBase.TestBase;
 import com.c2info.EG360_UIactions.Dashboard;
 import com.c2info.EG360_UIactions.SalesReports;
 
-public class VerifySalesReportForCurrentMonth extends TestBase{
+public class TC_003_VerifySalesReportForCurrentYear_Sales extends TestBase{
 
 	@BeforeClass
 	public void setup() throws IOException{
@@ -23,6 +23,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 		Dashboard db = new Dashboard();
 		db.login(OR.getProperty("MobileNum"), OR.getProperty("otp"));
 	}
+	
 	
 	@Test(priority=1)
 	public void verifyBranchName() throws InterruptedException, SQLException{
@@ -32,7 +33,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 		sr.clickOnMainMenu("Reports");
 		sr.clickOnReportsSubMenu("Sales Report");
 		waitforPageToLoad();
-		sr.selectDateDropdown("Current Month");
+		sr.selectDateDropdown("Current Year");
 		sr.clickOnViewReportButton();
 		waitforPageToLoad();
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
@@ -84,7 +85,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 			HashMap<String, String> values = new HashMap<String, String>();
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectedValue = values.get("NoOfInvoice");
-			String query = "select count(*) from inv_mst where c_br_code='"+brCode+"' and n_cancel_flag=0 and d_date>='"+getMonthStartDate()+"' and d_date<='"+getMonthEndDate()+"'";
+			String query = "select count(*) from inv_mst where c_br_code='"+brCode+"' and n_cancel_flag=0 and d_date>='"+getCurrentYearStartDate()+"' and d_date<='"+getCurrentYearEndDate()+"'";
 			System.out.println(query);
 			ResultSet val = db.getData(query);
 			String actualValue = null ;
@@ -107,7 +108,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 			HashMap<String, String> values = new HashMap<String, String>();
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectedValue = values.get("No Of Customers");
-			String query = "select count(distinct c_cust_code) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getMonthStartDate()+"' and d_date<='"+getMonthEndDate()+"' and n_cancel_flag=0";
+			String query = "select count(distinct c_cust_code) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getCurrentYearStartDate()+"' and d_date<='"+getCurrentYearEndDate()+"' and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			String actualValue = null ;
 			while(val.next()){
@@ -130,7 +131,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("DisAmount");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_discount) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getMonthStartDate()+"' and d_date<='"+getMonthEndDate()+"' and n_cancel_flag=0";
+			String query = "select sum(n_discount) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getCurrentYearStartDate()+"' and d_date<='"+getCurrentYearEndDate()+"' and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -154,7 +155,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("InvoiceValAfterDisc");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_taxable_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getMonthStartDate()+"' and d_date<='"+getMonthEndDate()+"' and n_cancel_flag=0";
+			String query = "select sum(n_taxable_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getCurrentYearStartDate()+"' and d_date<='"+getCurrentYearEndDate()+"' and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -178,7 +179,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("InvoiceVal_Tax");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_total) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getMonthStartDate()+"' and d_date<='"+getMonthEndDate()+"' and n_cancel_flag=0";
+			String query = "select sum(n_total) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getCurrentYearStartDate()+"' and d_date<='"+getCurrentYearEndDate()+"' and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -202,7 +203,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("TaxAmount");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_cgst_amt + n_sgst_amt + n_igst_amt + n_cess_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getMonthStartDate()+"' and d_date<='"+getMonthEndDate()+"'  and n_cancel_flag=0";
+			String query = "select sum(n_cgst_amt + n_sgst_amt + n_igst_amt + n_cess_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getCurrentYearStartDate()+"' and d_date<='"+getCurrentYearEndDate()+"'  and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -226,7 +227,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("CGST_Amt");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_cgst_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getMonthStartDate()+"' and d_date<='"+getMonthEndDate()+"'  and n_cancel_flag=0";
+			String query = "select sum(n_cgst_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getCurrentYearStartDate()+"' and d_date<='"+getCurrentYearEndDate()+"'  and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -250,7 +251,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("SGST_Amt");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_sgst_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getMonthStartDate()+"' and d_date<='"+getMonthEndDate()+"'  and n_cancel_flag=0";
+			String query = "select sum(n_sgst_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getCurrentYearStartDate()+"' and d_date<='"+getCurrentYearEndDate()+"'  and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -274,7 +275,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("IGST_Amt");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_igst_amt) from inv_mst where c_br_code='"+brCode+"' d_date>='"+getMonthStartDate()+"' and d_date<='"+getMonthEndDate()+"'  and n_cancel_flag=0";
+			String query = "select sum(n_igst_amt) from inv_mst where c_br_code='"+brCode+"' d_date>='"+getCurrentYearStartDate()+"' and d_date<='"+getCurrentYearEndDate()+"'  and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -298,7 +299,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("CESS_Amt");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_cess_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getMonthStartDate()+"' and d_date<='"+getMonthEndDate()+"'  and n_cancel_flag=0";
+			String query = "select sum(n_cess_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getCurrentYearStartDate()+"' and d_date<='"+getCurrentYearEndDate()+"'  and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -322,7 +323,7 @@ public class VerifySalesReportForCurrentMonth extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("ServiceCharge");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_service_chg) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getMonthStartDate()+"' and d_date<='"+getMonthEndDate()+"'  and n_cancel_flag=0";
+			String query = "select sum(n_service_chg) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getCurrentYearStartDate()+"' and d_date<='"+getCurrentYearEndDate()+"'  and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){

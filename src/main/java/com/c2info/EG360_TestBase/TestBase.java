@@ -187,6 +187,37 @@ public String getScreenshot(String methodName){
 		return sundayDate ;
 	}
 	
+	public LocalDate getWeekEndDate(){
+		LocalDate today = LocalDate.now();
+		LocalDate saturdayDate= today ;
+		while(saturdayDate.getDayOfWeek() != DayOfWeek.SATURDAY){
+			saturdayDate = saturdayDate.plusDays(1);
+		}
+		return saturdayDate ;
+	}
+	
+	public LocalDate getPreviousWeekStartDate(){
+		LocalDate today = LocalDate.now();
+		LocalDate sundayDate= today ;
+		
+		while(sundayDate.getDayOfWeek() != DayOfWeek.SUNDAY){
+			sundayDate = sundayDate.minusDays(1);
+		}
+		LocalDate previousSundayDate = sundayDate.minusDays(7);
+		return previousSundayDate ;
+	}
+	
+	public LocalDate getPreviousWeekEndDate(){
+		LocalDate today = LocalDate.now();
+		LocalDate sundayDate= today ;
+		
+		while(sundayDate.getDayOfWeek() != DayOfWeek.SUNDAY){
+			sundayDate = sundayDate.minusDays(1);
+		}
+		LocalDate previousSaturdayDate = sundayDate.minusDays(1);
+		return previousSaturdayDate ;
+	}
+	
 	public LocalDate getMonthStartDate(){
 		LocalDate today = LocalDate.now();
 
@@ -200,16 +231,86 @@ public String getScreenshot(String methodName){
 		return endDate ;
 	}
 	
-	
-	public LocalDate getWeekEndDate(){
+	public LocalDate getLastMonthStartDate(){
 		LocalDate today = LocalDate.now();
-		LocalDate saturdayDate= today ;
-		while(saturdayDate.getDayOfWeek() != DayOfWeek.SATURDAY){
-			saturdayDate = saturdayDate.plusDays(1);
-		}
-		return saturdayDate ;
+		today = today.minusMonths(1);
+		LocalDate lastMonthStartDate = today.withDayOfMonth(1);
+		return lastMonthStartDate;
 	}
 	
+	public LocalDate getLastMonthEndDate(){
+		LocalDate today = LocalDate.now();
+		today = today.minusMonths(1);
+		LocalDate endDate = today.withDayOfMonth(today.lengthOfMonth());
+		return endDate ;
+	}
+	
+	public LocalDate getCurrentYearStartDate(){
+		LocalDate today = LocalDate.now();
+		LocalDate yearStartDate = today.withDayOfYear(1);
+		return yearStartDate ;
+		
+	}
+	
+	public LocalDate getCurrentYearEndDate(){
+		LocalDate today = LocalDate.now();
+		LocalDate lastdayOfCurrentYear = today.withDayOfYear(today.lengthOfYear());
+		return lastdayOfCurrentYear ;
+	}
+	
+	
+	public LocalDate getCurrentQuarterStartDate(){
+		LocalDate today = LocalDate.now();
+		int currentMonth = today.getMonthValue();
+		if(currentMonth<=3 && currentMonth>=1){
+			System.out.println("1st Quarter");
+			LocalDate firstQuarterStartDate = today.withDayOfYear(1);
+			return firstQuarterStartDate;
+		}
+		else if(currentMonth>3 && currentMonth<=6){
+			LocalDate secondQuarterStartDate = today.withDayOfYear(1).plusMonths(4);
+			return secondQuarterStartDate ;
+		}
+		
+		else if(currentMonth>6 && currentMonth<=9){
+			LocalDate thirdQuarterStartDate = today.withDayOfYear(1).plusMonths(7);
+			return thirdQuarterStartDate ;
+		}
+		else if(currentMonth>9 && currentMonth<=12){
+			LocalDate fourthQuarterStartDate = today.withDayOfYear(1).plusMonths(10);
+			return fourthQuarterStartDate ;
+		}
+		return today;
+	}
+	
+	
+	public LocalDate getCurrentQuarterEndDate(){
+		LocalDate today = LocalDate.now();
+		int currentMonth = today.getMonthValue();
+		if(currentMonth<=3 && currentMonth>=1){
+			System.out.println("1st Quarter");
+			LocalDate firstQuarterEndDate = today.withDayOfYear(1).plusMonths(3);
+			firstQuarterEndDate = today.withDayOfMonth(today.lengthOfMonth());
+			return firstQuarterEndDate;
+		}
+		else if(currentMonth>3 && currentMonth<=6){
+			LocalDate secondQuarterEndDate = today.withDayOfYear(1).plusMonths(6);
+			secondQuarterEndDate = today.withDayOfMonth(today.lengthOfMonth());
+			return secondQuarterEndDate ;
+		}
+		
+		else if(currentMonth>6 && currentMonth<=9){
+			LocalDate thirdQuarterEndDate = today.withDayOfYear(1).plusMonths(9);
+			thirdQuarterEndDate = today.withDayOfMonth(today.lengthOfMonth());
+			return thirdQuarterEndDate ;
+		}
+		else if(currentMonth>9 && currentMonth<=12){
+			LocalDate fourthQuarterEndDate = today.withDayOfYear(1).plusMonths(12);
+			fourthQuarterEndDate = today.withDayOfMonth(today.lengthOfMonth());
+			return fourthQuarterEndDate ;
+		}
+		return today;
+	}
 	
 	
 }

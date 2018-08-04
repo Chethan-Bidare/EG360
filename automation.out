@@ -121,3 +121,33 @@
 2018-08-03 16:39:25 INFO  TestBase:158 - Test Started :verifyBranchName
 2018-08-03 16:42:33 INFO  TestBase:164 - Test Finished :verifyBranchName
 2018-08-03 16:42:33 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-03 16:44:15 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-03 16:44:18 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-03 16:47:25 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-03 16:47:25 INFO  TestBase:158 - Test Started :verifyBranchShortName
+2018-08-04 12:34:26 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 12:34:32 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 12:36:45 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 12:36:45 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 12:36:47 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 12:36:52 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 12:36:52 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 12:36:57 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 12:39:24 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 12:39:24 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 12:39:26 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 12:39:31 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 12:39:31 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 12:39:35 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 12:42:26 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 12:42:26 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 12:42:28 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 12:42:33 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 12:42:33 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 12:42:38 INFO  TestBase:158 - Test Started :verifyBranchName
+2018-08-04 12:45:07 INFO  TestBase:164 - Test Finished :verifyBranchName
+2018-08-04 12:45:07 INFO  TestBase:57 - OR property file loaded successfully
+2018-08-04 12:45:09 INFO  TestBase:73 - chrome browser launched successfully
+2018-08-04 12:45:13 INFO  TestBase:100 - URL loaded and window maximized
+2018-08-04 12:45:13 INFO  TestBase:93 - ========== Initialiazation Completed =================
+2018-08-04 12:45:21 INFO  TestBase:158 - Test Started :verifyBranchName

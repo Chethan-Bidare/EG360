@@ -3,7 +3,6 @@ package com.c2info.EG360_SalesReportsTCs;
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Set;
 
@@ -16,7 +15,7 @@ import com.c2info.EG360_TestBase.TestBase;
 import com.c2info.EG360_UIactions.Dashboard;
 import com.c2info.EG360_UIactions.SalesReports;
 
-public class VerifySalesReportForYesterday extends TestBase{
+public class TC_004_VerifySalesReportForLastMonth_Sales extends TestBase{
 
 	@BeforeClass
 	public void setup() throws IOException{
@@ -24,6 +23,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 		Dashboard db = new Dashboard();
 		db.login(OR.getProperty("MobileNum"), OR.getProperty("otp"));
 	}
+	
 	
 	@Test(priority=1)
 	public void verifyBranchName() throws InterruptedException, SQLException{
@@ -33,7 +33,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 		sr.clickOnMainMenu("Reports");
 		sr.clickOnReportsSubMenu("Sales Report");
 		waitforPageToLoad();
-		sr.selectDateDropdown("Yesterday");
+		sr.selectDateDropdown("Last Month");
 		sr.clickOnViewReportButton();
 		waitforPageToLoad();
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
@@ -78,8 +78,6 @@ public class VerifySalesReportForYesterday extends TestBase{
 	public void verifyBranchWiseNumberOfInvoices() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
-		LocalDate today = LocalDate.now();
-		LocalDate yesterday = today.minusDays(1);
 		String brCode ;
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
@@ -87,7 +85,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 			HashMap<String, String> values = new HashMap<String, String>();
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectedValue = values.get("NoOfInvoice");
-			String query = "select count(*) from inv_mst where c_br_code='"+brCode+"' and n_cancel_flag=0 and d_date='"+yesterday+"'";
+			String query = "select count(*) from inv_mst where c_br_code='"+brCode+"' and n_cancel_flag=0 and d_date>='"+getLastMonthStartDate()+"' and d_date<='"+getLastMonthEndDate()+"'";
 			System.out.println(query);
 			ResultSet val = db.getData(query);
 			String actualValue = null ;
@@ -103,8 +101,6 @@ public class VerifySalesReportForYesterday extends TestBase{
 	public void verifyBranchwiseNumberOfCustomers() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
-		LocalDate today = LocalDate.now();
-		LocalDate yesterday = today.minusDays(1);
 		String brCode ;
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
@@ -112,7 +108,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 			HashMap<String, String> values = new HashMap<String, String>();
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectedValue = values.get("No Of Customers");
-			String query = "select count(distinct c_cust_code) from inv_mst where c_br_code='"+brCode+"' and d_date='"+yesterday+"' and n_cancel_flag=0";
+			String query = "select count(distinct c_cust_code) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getLastMonthStartDate()+"' and d_date<='"+getLastMonthEndDate()+"' and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			String actualValue = null ;
 			while(val.next()){
@@ -127,8 +123,6 @@ public class VerifySalesReportForYesterday extends TestBase{
 	public void verifyBranchwiseDiscAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
-		LocalDate today = LocalDate.now();
-		LocalDate yesterday = today.minusDays(1);
 		String brCode ;
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
@@ -137,7 +131,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("DisAmount");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_discount) from inv_mst where c_br_code='"+brCode+"' and d_date='"+yesterday+"' and n_cancel_flag=0";
+			String query = "select sum(n_discount) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getLastMonthStartDate()+"' and d_date<='"+getLastMonthEndDate()+"' and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -153,8 +147,6 @@ public class VerifySalesReportForYesterday extends TestBase{
 	public void verifyBranchwiseInvoiceValAfterDisc() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
-		LocalDate today = LocalDate.now();
-		LocalDate yesterday = today.minusDays(1);
 		String brCode ;
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
@@ -163,7 +155,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("InvoiceValAfterDisc");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_taxable_amt) from inv_mst where c_br_code='"+brCode+"' and d_date='"+yesterday+"' and n_cancel_flag=0";
+			String query = "select sum(n_taxable_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getLastMonthStartDate()+"' and d_date<='"+getLastMonthEndDate()+"' and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -179,8 +171,6 @@ public class VerifySalesReportForYesterday extends TestBase{
 	public void verifyBranchwiseInvoiceValTax() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
-		LocalDate today = LocalDate.now();
-		LocalDate yesterday = today.minusDays(1);
 		String brCode ;
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
@@ -189,7 +179,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("InvoiceVal_Tax");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_total) from inv_mst where c_br_code='"+brCode+"' and d_date='"+yesterday+"' and n_cancel_flag=0";
+			String query = "select sum(n_total) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getLastMonthStartDate()+"' and d_date<='"+getLastMonthEndDate()+"' and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -205,8 +195,6 @@ public class VerifySalesReportForYesterday extends TestBase{
 	public void verifyBranchwiseTaxAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
-		LocalDate today = LocalDate.now();
-		LocalDate yesterday = today.minusDays(1);
 		String brCode ;
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
@@ -215,7 +203,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("TaxAmount");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_cgst_amt + n_sgst_amt + n_igst_amt + n_cess_amt) from inv_mst where c_br_code='"+brCode+"' and d_date='"+yesterday+"' and n_cancel_flag=0";
+			String query = "select sum(n_cgst_amt + n_sgst_amt + n_igst_amt + n_cess_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getLastMonthStartDate()+"' and d_date<='"+getLastMonthEndDate()+"'  and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -231,8 +219,6 @@ public class VerifySalesReportForYesterday extends TestBase{
 	public void verifyBranchwiseCGSTAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
-		LocalDate today = LocalDate.now();
-		LocalDate yesterday = today.minusDays(1);
 		String brCode ;
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
@@ -241,7 +227,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("CGST_Amt");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_cgst_amt) from inv_mst where c_br_code='"+brCode+"' and d_date='"+yesterday+"' and n_cancel_flag=0";
+			String query = "select sum(n_cgst_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getLastMonthStartDate()+"' and d_date<='"+getLastMonthEndDate()+"'  and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -257,8 +243,6 @@ public class VerifySalesReportForYesterday extends TestBase{
 	public void verifyBranchwiseSGSTAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
-		LocalDate today = LocalDate.now();
-		LocalDate yesterday = today.minusDays(1);
 		String brCode ;
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
@@ -267,7 +251,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("SGST_Amt");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_sgst_amt) from inv_mst where c_br_code='"+brCode+"' and d_date='"+yesterday+"' and n_cancel_flag=0";
+			String query = "select sum(n_sgst_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getLastMonthStartDate()+"' and d_date<='"+getLastMonthEndDate()+"'  and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -283,8 +267,6 @@ public class VerifySalesReportForYesterday extends TestBase{
 	public void verifyBranchwiseIGSTAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
-		LocalDate today = LocalDate.now();
-		LocalDate yesterday = today.minusDays(1);
 		String brCode ;
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
@@ -293,7 +275,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("IGST_Amt");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_igst_amt) from inv_mst where c_br_code='"+brCode+"' and d_date='"+yesterday+"' and n_cancel_flag=0";
+			String query = "select sum(n_igst_amt) from inv_mst where c_br_code='"+brCode+"' d_date>='"+getLastMonthStartDate()+"' and d_date<='"+getLastMonthEndDate()+"'  and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -309,8 +291,6 @@ public class VerifySalesReportForYesterday extends TestBase{
 	public void verifyBranchwiseCessAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
-		LocalDate today = LocalDate.now();
-		LocalDate yesterday = today.minusDays(1);
 		String brCode ;
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
@@ -319,7 +299,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("CESS_Amt");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_cess_amt) from inv_mst where c_br_code='"+brCode+"' and d_date='"+yesterday+"' and n_cancel_flag=0";
+			String query = "select sum(n_cess_amt) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getLastMonthStartDate()+"' and d_date<='"+getLastMonthEndDate()+"'  and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
@@ -335,8 +315,6 @@ public class VerifySalesReportForYesterday extends TestBase{
 	public void verifyBranchwiseServiceChargeAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
-		LocalDate today = LocalDate.now();
-		LocalDate yesterday = today.minusDays(1);
 		String brCode ;
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
@@ -345,7 +323,7 @@ public class VerifySalesReportForYesterday extends TestBase{
 			values.putAll(sr.getBranchWiseSalesDetails().get(str));
 			String expectValue = values.get("ServiceCharge");
 			double expectedValue = Double.parseDouble(expectValue);
-			String query = "select sum(n_service_chg) from inv_mst where c_br_code='"+brCode+"' and d_date='"+yesterday+"' and n_cancel_flag=0";
+			String query = "select sum(n_service_chg) from inv_mst where c_br_code='"+brCode+"' and d_date>='"+getLastMonthStartDate()+"' and d_date<='"+getLastMonthEndDate()+"'  and n_cancel_flag=0";
 			ResultSet val = db.getData(query);
 			double actualValue = 0;
 			while(val.next()){
