@@ -15,6 +15,8 @@
       <class name="com.c2info.EG360_SalesReportsTCs.TC_005_VerifySalesReportForLastWeek_Sales"/>
       <class name="com.c2info.EG360_SalesReportsTCs.TC_006_VerifySalesReportForToday_Sales"/>
       <class name="com.c2info.EG360_SalesReportsTCs.TC_007_VerifySalesReportForYesterday_Sales"/> -->
+      
+      
       <class name="com.c2info.EG360_SalesReportsTCs.TC_008_VerifySalesReportForToday_SalesReturn"/>
       <class name="com.c2info.EG360_SalesReportsTCs.TC_009_VerifySalesReportForYesterday_SalesReturn"/>
       <class name="com.c2info.EG360_SalesReportsTCs.TC_010_VerifySalesReportForLastWeek_SalesReturn"/>

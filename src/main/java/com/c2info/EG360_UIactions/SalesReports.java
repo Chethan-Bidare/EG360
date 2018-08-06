@@ -1,8 +1,6 @@
 package com.c2info.EG360_UIactions;
 
 import java.util.HashMap;
-import java.util.List;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
