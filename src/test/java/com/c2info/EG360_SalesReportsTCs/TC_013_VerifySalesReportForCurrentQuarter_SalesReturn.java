@@ -79,6 +79,7 @@ public class TC_013_VerifySalesReportForCurrentQuarter_SalesReturn extends TestB
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		String brCode ;
+		
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;

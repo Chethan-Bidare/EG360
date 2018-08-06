@@ -262,25 +262,24 @@ public String getScreenshot(String methodName){
 	public LocalDate getCurrentQuarterStartDate(){
 		LocalDate today = LocalDate.now();
 		int currentMonth = today.getMonthValue();
-		if(currentMonth<=3 && currentMonth>=1){
-			System.out.println("1st Quarter");
+		if(currentMonth==1 || currentMonth==2 || currentMonth==3){
 			LocalDate firstQuarterStartDate = today.withDayOfYear(1);
 			return firstQuarterStartDate;
 		}
-		else if(currentMonth>3 && currentMonth<=6){
-			LocalDate secondQuarterStartDate = today.withDayOfYear(1).plusMonths(4);
+		else if(currentMonth==4 || currentMonth==5 || currentMonth==6){
+			LocalDate secondQuarterStartDate = today.withDayOfYear(1).plusMonths(3);
 			return secondQuarterStartDate ;
 		}
 		
-		else if(currentMonth>6 && currentMonth<=9){
-			LocalDate thirdQuarterStartDate = today.withDayOfYear(1).plusMonths(7);
+		else if(currentMonth==7 || currentMonth==8 || currentMonth==9){
+			LocalDate thirdQuarterStartDate = today.withDayOfYear(1).plusMonths(6);
 			return thirdQuarterStartDate ;
 		}
-		else if(currentMonth>9 && currentMonth<=12){
-			LocalDate fourthQuarterStartDate = today.withDayOfYear(1).plusMonths(10);
+		else if(currentMonth==10 || currentMonth==11 || currentMonth==13){
+			LocalDate fourthQuarterStartDate = today.withDayOfYear(1).plusMonths(9);
 			return fourthQuarterStartDate ;
 		}
-		return today;
+		return today ;
 	}
 	
 	
@@ -289,24 +288,24 @@ public String getScreenshot(String methodName){
 		int currentMonth = today.getMonthValue();
 		if(currentMonth<=3 && currentMonth>=1){
 			System.out.println("1st Quarter");
-			LocalDate firstQuarterEndDate = today.withDayOfYear(1).plusMonths(3);
-			firstQuarterEndDate = today.withDayOfMonth(today.lengthOfMonth());
+			LocalDate firstQuarterEndDate = today.withDayOfYear(1).plusMonths(2);
+			firstQuarterEndDate = firstQuarterEndDate.withDayOfMonth(firstQuarterEndDate.lengthOfMonth());
 			return firstQuarterEndDate;
 		}
 		else if(currentMonth>3 && currentMonth<=6){
-			LocalDate secondQuarterEndDate = today.withDayOfYear(1).plusMonths(6);
-			secondQuarterEndDate = today.withDayOfMonth(today.lengthOfMonth());
+			LocalDate secondQuarterEndDate = today.withDayOfYear(1).plusMonths(5);
+			secondQuarterEndDate = secondQuarterEndDate.withDayOfMonth(secondQuarterEndDate.lengthOfMonth());
 			return secondQuarterEndDate ;
 		}
 		
 		else if(currentMonth>6 && currentMonth<=9){
-			LocalDate thirdQuarterEndDate = today.withDayOfYear(1).plusMonths(9);
-			thirdQuarterEndDate = today.withDayOfMonth(today.lengthOfMonth());
+			LocalDate thirdQuarterEndDate = today.withDayOfYear(1).plusMonths(8);
+			thirdQuarterEndDate = thirdQuarterEndDate.withDayOfMonth(thirdQuarterEndDate.lengthOfMonth());
 			return thirdQuarterEndDate ;
 		}
 		else if(currentMonth>9 && currentMonth<=12){
-			LocalDate fourthQuarterEndDate = today.withDayOfYear(1).plusMonths(12);
-			fourthQuarterEndDate = today.withDayOfMonth(today.lengthOfMonth());
+			LocalDate fourthQuarterEndDate = today.withDayOfYear(1).plusMonths(11);
+			fourthQuarterEndDate = fourthQuarterEndDate.withDayOfMonth(fourthQuarterEndDate.lengthOfMonth());
 			return fourthQuarterEndDate ;
 		}
 		return today;

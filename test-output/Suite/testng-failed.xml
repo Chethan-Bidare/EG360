@@ -5,37 +5,26 @@
     <classes>
       <class name="com.c2info.EG360_SalesReportsTCs.TC_011_VerifySalesReportForCurrentMonth_SalesReturn">
         <methods>
-          <include name="verifyBranchwiseCGSTAmount"/>
-          <include name="verifyBranchwiseNumberOfCustomers"/>
           <include name="verifyBranchwiseIGSTAmount"/>
           <include name="beforeMethod"/>
           <include name="verifyBranchwiseInvoiceValAfterDisc"/>
           <include name="verifyBranchwiseTaxAmount"/>
-          <include name="endTest"/>
-          <include name="verifyBranchwiseDiscAmount"/>
-          <include name="verifyBranchwiseInvoiceValTax"/>
-          <include name="verifyBranchWiseNumberOfInvoices"/>
-          <include name="verifyBranchwiseCessAmount"/>
           <include name="setup"/>
-          <include name="verifyBranchwiseSGSTAmount"/>
-          <include name="verifyBranchwiseServiceChargeAmount"/>
+          <include name="endTest"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.c2info.EG360_SalesReportsTCs.TC_011_VerifySalesReportForCurrentMonth_SalesReturn -->
       <class name="com.c2info.EG360_SalesReportsTCs.TC_010_VerifySalesReportForLastWeek_SalesReturn">
         <methods>
           <include name="verifyBranchwiseSGSTAmount"/>
+          <include name="verifyBranchwiseTaxAmount"/>
           <include name="setup"/>
           <include name="beforeMethod"/>
-          <include name="verifyBranchwiseServiceChargeAmount"/>
-          <include name="verifyBranchwiseCessAmount"/>
-          <include name="endTest"/>
-          <include name="verifyBranchwiseTaxAmount"/>
           <include name="verifyBranchwiseDiscAmount"/>
           <include name="verifyBranchWiseNumberOfInvoices"/>
           <include name="verifyBranchwiseInvoiceValTax"/>
           <include name="verifyBranchwiseCGSTAmount"/>
-          <include name="verifyBranchwiseNumberOfCustomers"/>
+          <include name="endTest"/>
           <include name="verifyBranchwiseIGSTAmount"/>
           <include name="afterMethod"/>
           <include name="verifyBranchwiseInvoiceValAfterDisc"/>
@@ -45,17 +34,10 @@
         <methods>
           <include name="verifyBranchwiseInvoiceValAfterDisc"/>
           <include name="beforeMethod"/>
-          <include name="verifyBranchwiseCGSTAmount"/>
           <include name="verifyBranchwiseIGSTAmount"/>
-          <include name="verifyBranchwiseDiscAmount"/>
-          <include name="verifyBranchwiseInvoiceValTax"/>
           <include name="endTest"/>
-          <include name="verifyBranchWiseNumberOfInvoices"/>
           <include name="verifyBranchwiseTaxAmount"/>
-          <include name="verifyBranchwiseCessAmount"/>
-          <include name="verifyBranchwiseServiceChargeAmount"/>
           <include name="setup"/>
-          <include name="verifyBranchwiseSGSTAmount"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.c2info.EG360_SalesReportsTCs.TC_012_VerifySalesReportForLastMonth_SalesReturn -->
@@ -66,7 +48,6 @@
           <include name="beforeMethod"/>
           <include name="verifyBranchWiseNumberOfInvoices"/>
           <include name="endTest"/>
-          <include name="verifyBranchwiseServiceChargeAmount"/>
           <include name="verifyBranchwiseSGSTAmount"/>
           <include name="verifyBranchwiseInvoiceValAfterDisc"/>
           <include name="verifyBranchwiseIGSTAmount"/>
@@ -78,32 +59,12 @@
           <include name="verifyBranchwiseTaxAmount"/>
         </methods>
       </class> <!-- com.c2info.EG360_SalesReportsTCs.TC_014_VerifySalesReportForCurrentYear_SalesReturn -->
-      <class name="com.c2info.EG360_SalesReportsTCs.TC_008_VerifySalesReportForToday_SalesReturn">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="verifyBranchwiseSGSTAmount"/>
-          <include name="setup"/>
-          <include name="endTest"/>
-          <include name="verifyBranchwiseCessAmount"/>
-          <include name="verifyBranchWiseNumberOfInvoices"/>
-          <include name="verifyBranchwiseDiscAmount"/>
-          <include name="verifyBranchwiseInvoiceValTax"/>
-          <include name="verifyBranchwiseTaxAmount"/>
-          <include name="verifyBranchwiseInvoiceValAfterDisc"/>
-          <include name="verifyBranchwiseCGSTAmount"/>
-          <include name="verifyBranchwiseNumberOfCustomers"/>
-          <include name="afterMethod"/>
-          <include name="verifyBranchwiseIGSTAmount"/>
-        </methods>
-      </class> <!-- com.c2info.EG360_SalesReportsTCs.TC_008_VerifySalesReportForToday_SalesReturn -->
       <class name="com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn">
         <methods>
           <include name="verifyBranchwiseSGSTAmount"/>
           <include name="beforeMethod"/>
-          <include name="verifyBranchwiseServiceChargeAmount"/>
           <include name="verifyBranchWiseNumberOfInvoices"/>
           <include name="endTest"/>
-          <include name="verifyBranchwiseCessAmount"/>
           <include name="setup"/>
           <include name="verifyBranchwiseTaxAmount"/>
           <include name="verifyBranchwiseInvoiceValTax"/>
@@ -117,20 +78,10 @@
       </class> <!-- com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn -->
       <class name="com.c2info.EG360_SalesReportsTCs.TC_009_VerifySalesReportForYesterday_SalesReturn">
         <methods>
-          <include name="verifyBranchWiseNumberOfInvoices"/>
-          <include name="verifyBranchwiseInvoiceValTax"/>
-          <include name="verifyBranchwiseDiscAmount"/>
           <include name="beforeMethod"/>
           <include name="verifyBranchwiseTaxAmount"/>
-          <include name="verifyBranchwiseInvoiceValAfterDisc"/>
-          <include name="endTest"/>
-          <include name="verifyBranchwiseIGSTAmount"/>
-          <include name="verifyBranchwiseCGSTAmount"/>
-          <include name="verifyBranchwiseNumberOfCustomers"/>
-          <include name="verifyBranchwiseServiceChargeAmount"/>
-          <include name="verifyBranchwiseSGSTAmount"/>
           <include name="setup"/>
-          <include name="verifyBranchwiseCessAmount"/>
+          <include name="endTest"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.c2info.EG360_SalesReportsTCs.TC_009_VerifySalesReportForYesterday_SalesReturn -->
