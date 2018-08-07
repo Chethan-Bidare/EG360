@@ -1,6 +1,7 @@
 package com.c2info.EG360_UIactions;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -93,6 +94,9 @@ public class Dashboard extends TestBase{
 	@FindBy(xpath="html/body/div[4]/div[2]/div[1]/div/div[2]/div/div[1]/div[6]/div")
 	WebElement totalWeightedAvg ;
 	
+	@FindBy(xpath="//div[@class='sidebar-toggler']")
+	WebElement sideBar ;
+	
 	public Dashboard(){
 		PageFactory.initElements(driver, this);
 	}
@@ -109,6 +113,32 @@ public class Dashboard extends TestBase{
 		otp.clear();
 		otp.sendKeys(OTP);
 		verifyOTPbutton.click();
+	}
+	
+	public void clickOnSideBar(){
+		sideBar.click();
+	}
+	
+	public void clickOnMainMenu(String menuName){	
+		int size = driver.findElements(By.xpath("html/body/div[3]/div/ul/li")).size();
+		for(int i=1; i<=size; i++){
+			WebElement temp = driver.findElement(By.xpath("html/body/div[3]/div/ul/li["+i+"]"));
+			if(temp.getText().trim().equalsIgnoreCase(menuName)){
+				temp.click();
+				break ;
+			}
+		}
+	}
+	
+	public void clickOnReportsSubMenu(String subMenu){
+		int size = driver.findElements(By.xpath("html/body/div[3]/div/ul/li[5]/ul/li")).size();
+		for(int i=1; i<=size; i++){
+			WebElement temp = driver.findElement(By.xpath("html/body/div[3]/div/ul/li[5]/ul/li["+i+"]/a"));
+			if(temp.getText().trim().equalsIgnoreCase(subMenu)){
+				temp.click();
+				break ;
+			}
+		}
 	}
 	
 	public String getCurrentMonthSales(){

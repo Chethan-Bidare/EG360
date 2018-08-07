@@ -29,9 +29,10 @@ public class TC_009_VerifySalesReportForYesterday_SalesReturn extends TestBase{
 	public void verifyBranchName() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
+		Dashboard dashboard = new Dashboard();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
+		dashboard.clickOnMainMenu("Reports");
+		dashboard.clickOnReportsSubMenu("Sales Report");
 		waitforPageToLoad();
 		sr.selectTypeDropdown("Sales Return");
 		sr.selectDateDropdown("Yesterday");

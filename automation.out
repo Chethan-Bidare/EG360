@@ -962,3 +962,4 @@
 2018-08-06 11:40:55 INFO  TestBase:164 - Test Finished :verifyBranchwiseCessAmount
 2018-08-06 11:40:55 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
 2018-08-06 11:41:00 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
+2018-08-07 13:02:24 INFO  TestBase:91 - ========== Initialiazation Completed =================

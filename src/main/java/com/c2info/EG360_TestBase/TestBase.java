@@ -36,12 +36,10 @@ import com.relevantcodes.extentreports.LogStatus;
 public class TestBase {
 	
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
-
 	public static WebDriver driver ;
 	public static ITestResult result ;
 	public static ExtentTest test ;
 	public static ExtentReports extent ;
-	
 	public Properties OR = new Properties();
 	
 	static{
@@ -111,7 +109,7 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 	}
 	
-public String getScreenshot(String methodName){
+	public String getScreenshot(String methodName){
 		
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formatter = new SimpleDateFormat("DD_MM_YYYY_HH_MM_SS");
@@ -140,7 +138,7 @@ public String getScreenshot(String methodName){
 		}
 		else if(result.getStatus()==ITestResult.FAILURE){
 			test.log(LogStatus.FAIL, result.getName()+" Test is Failed");
-			//test.log(LogStatus.FAIL, test.addScreenCapture(getScreenshot(Thread.currentThread().getStackTrace()[1].getMethodName())));
+			test.log(LogStatus.FAIL, test.addScreenCapture(getScreenshot(Thread.currentThread().getStackTrace()[1].getMethodName())));
 		}
 		else if(result.getStatus()==ITestResult.SKIP){
 			test.log(LogStatus.SKIP, result.getName()+ "Test is skipped");

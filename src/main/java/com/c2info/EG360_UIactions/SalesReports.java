@@ -36,42 +36,7 @@ public class SalesReports extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void clickOnSideBar(){
-		sideBar.click();
-	}
 	
-	public void clickOnMainMenu(String menuName){	
-		int size = driver.findElements(By.xpath("html/body/div[3]/div/ul/li")).size();
-		for(int i=1; i<=size; i++){
-			WebElement temp = driver.findElement(By.xpath("html/body/div[3]/div/ul/li["+i+"]"));
-			if(temp.getText().trim().equalsIgnoreCase(menuName)){
-				temp.click();
-				break ;
-			}
-		}
-	}
-	
-	public void clickOnReportsSubMenu(String subMenu){
-		int size = driver.findElements(By.xpath("html/body/div[3]/div/ul/li[5]/ul/li")).size();
-		for(int i=1; i<=size; i++){
-			WebElement temp = driver.findElement(By.xpath("html/body/div[3]/div/ul/li[5]/ul/li["+i+"]/a"));
-			if(temp.getText().trim().equalsIgnoreCase(subMenu)){
-				temp.click();
-				break ;
-			}
-		}
-	}
-	
-	public void clickOnSavingsReportsSubMenu(String subMenu){
-		int size = driver.findElements(By.xpath("html/body/div[3]/div/ul/li[6]/ul/li")).size();
-		for(int i=1; i<=size; i++){
-			WebElement temp = driver.findElement(By.xpath("html/body/div[3]/div/ul/li[6]/ul/li["+i+"]/a"));
-			if(temp.getText().trim().equalsIgnoreCase(subMenu)){
-				temp.click();
-				break ;
-			}
-		}
-	}
 	
 	public void selectPeriodDropdown(String periodType){
 		Select periodDropdown = new Select(period);

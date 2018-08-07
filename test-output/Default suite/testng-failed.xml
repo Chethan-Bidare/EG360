@@ -3,23 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn">
+      <class name="com.c2info.EG360_ItemBouncedReportTCs.TC_001_VerifyItemBouncedReport">
         <methods>
-          <include name="verifyBranchwiseSGSTAmount"/>
           <include name="beforeMethod"/>
-          <include name="verifyBranchWiseNumberOfInvoices"/>
-          <include name="endTest"/>
           <include name="setup"/>
-          <include name="verifyBranchwiseTaxAmount"/>
-          <include name="verifyBranchwiseInvoiceValTax"/>
-          <include name="verifyBranchwiseDiscAmount"/>
-          <include name="verifyBranchwiseCGSTAmount"/>
-          <include name="verifyBranchwiseNumberOfCustomers"/>
-          <include name="verifyBranchwiseIGSTAmount"/>
-          <include name="verifyBranchwiseInvoiceValAfterDisc"/>
+          <include name="verifyBranchCode"/>
+          <include name="endTest"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn -->
+      </class> <!-- com.c2info.EG360_ItemBouncedReportTCs.TC_001_VerifyItemBouncedReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

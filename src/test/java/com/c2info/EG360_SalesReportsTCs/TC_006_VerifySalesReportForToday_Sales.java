@@ -28,13 +28,14 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 		db.login(OR.getProperty("MobileNum"), OR.getProperty("otp"));
 	}
 	
-	@Test(priority=1)
+	@Test(priority=66)
 	public void verifyBranchName() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
+		Dashboard dashboard = new Dashboard();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
+		dashboard.clickOnMainMenu("Reports");
+		dashboard.clickOnReportsSubMenu("Sales Report");
 		waitforPageToLoad();
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
@@ -52,13 +53,11 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 		}
 	}
 	
-	@Test(priority=2)
+	@Test(priority=67)
 	public void verifyBranchShortName() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;
@@ -76,14 +75,12 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 		}
 	}
 	
-	@Test (priority=3)
+	@Test (priority=68)
 	public void verifyBranchWiseNumberOfInvoices() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		LocalDate today = LocalDate.now();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;
@@ -102,14 +99,13 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 	}
 
 	
-	@Test(priority=4)
+	@Test(priority=69)
 	public void verifyBranchwiseNumberOfCustomers() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		LocalDate today = LocalDate.now();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
+	
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;
@@ -127,14 +123,12 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 		}
 	}
 	
-	@Test(priority=5)
+	@Test(priority=70)
 	public void verifyBranchwiseDiscAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		LocalDate today = LocalDate.now();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;
@@ -154,14 +148,12 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 		}
 	}
 	
-	@Test(priority=6)
+	@Test(priority=71)
 	public void verifyBranchwiseInvoiceValAfterDisc() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		LocalDate today = LocalDate.now();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;
@@ -181,14 +173,12 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 		}
 	}
 	
-	@Test(priority=7)
+	@Test(priority=72)
 	public void verifyBranchwiseInvoiceValTax() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		LocalDate today = LocalDate.now();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;
@@ -208,14 +198,12 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 		}
 	}
 	
-	@Test(priority=8)
+	@Test(priority=73)
 	public void verifyBranchwiseTaxAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		LocalDate today = LocalDate.now();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;
@@ -235,14 +223,12 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 		}
 	}
 	
-	@Test(priority=9)
+	@Test(priority=74)
 	public void verifyBranchwiseCGSTAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		LocalDate today = LocalDate.now();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;
@@ -262,14 +248,12 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 		}
 	}
 	
-	@Test(priority=10)
+	@Test(priority=75)
 	public void verifyBranchwiseSGSTAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		LocalDate today = LocalDate.now();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;
@@ -289,14 +273,12 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 		}
 	}
 	
-	@Test(priority=11)
+	@Test(priority=76)
 	public void verifyBranchwiseIGSTAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		LocalDate today = LocalDate.now();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;
@@ -316,14 +298,12 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 		}
 	}
 	
-	@Test(priority=12)
+	@Test(priority=77)
 	public void verifyBranchwiseCessAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		LocalDate today = LocalDate.now();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;
@@ -343,14 +323,12 @@ public class TC_006_VerifySalesReportForToday_Sales extends TestBase {
 		}
 	}
 	
-	@Test(priority=13)
+	@Test(priority=78)
 	public void verifyBranchwiseServiceChargeAmount() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
 		LocalDate today = LocalDate.now();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
 		for(String str : set){
 			brCode= str ;

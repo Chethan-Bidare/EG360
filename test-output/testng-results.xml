@@ -1,103 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="9" ignored="0" total="13" passed="4">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="96948" started-at="2018-08-06T06:09:24Z" finished-at="2018-08-06T06:11:01Z">
+  <suite name="Default suite" duration-ms="26627" started-at="2018-08-07T07:32:16Z" finished-at="2018-08-07T07:32:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="96948" started-at="2018-08-06T06:09:24Z" finished-at="2018-08-06T06:11:01Z">
-      <class name="com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="setup" is-config="true" duration-ms="11166" started-at="2018-08-06T11:39:24Z" finished-at="2018-08-06T11:39:35Z">
+    <test name="Default test" duration-ms="26627" started-at="2018-08-07T07:32:16Z" finished-at="2018-08-07T07:32:43Z">
+      <class name="com.c2info.EG360_ItemBouncedReportTCs.TC_001_VerifyItemBouncedReport">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.c2info.EG360_ItemBouncedReportTCs.TC_001_VerifyItemBouncedReport@42f93a98]" name="setup" is-config="true" duration-ms="26406" started-at="2018-08-07T13:02:16Z" finished-at="2018-08-07T13:02:43Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=68.0.3440.84)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHETHANBIDARE-P', ip: '172.16.18.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\User1\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.84, webStorageEnabled: true}
+Session ID: a3b2d475b89d8e6412bec87d45778936
+*** Element info: {Using=id, value=otp}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=68.0.3440.84)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHETHANBIDARE-P', ip: '172.16.18.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\User1\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.84, webStorageEnabled: true}
+Session ID: a3b2d475b89d8e6412bec87d45778936
+*** Element info: {Using=id, value=otp}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:365)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.c2info.EG360_UIactions.Dashboard.login(Dashboard.java:112)
+	at com.c2info.EG360_ItemBouncedReportTCs.TC_001_VerifyItemBouncedReport.setup(TC_001_VerifyItemBouncedReport.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-08-06T11:39:35Z" finished-at="2018-08-06T11:39:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchName() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_ItemBouncedReportTCs.TC_001_VerifyItemBouncedReport@42f93a98]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-08-07T13:02:43Z" finished-at="2018-08-07T13:02:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyBranchName()[pri:158, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchName" duration-ms="28606" started-at="2018-08-06T11:39:35Z" finished-at="2018-08-06T11:40:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBranchName -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:04Z" finished-at="2018-08-06T11:40:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchName status=SUCCESS method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchName()[pri:158, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:04Z" finished-at="2018-08-06T11:40:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchShortName() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyBranchShortName()[pri:159, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchShortName" duration-ms="4760" started-at="2018-08-06T11:40:04Z" finished-at="2018-08-06T11:40:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBranchShortName -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="3" started-at="2018-08-06T11:40:08Z" finished-at="2018-08-06T11:40:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchShortName status=SUCCESS method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchShortName()[pri:159, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:08Z" finished-at="2018-08-06T11:40:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchWiseNumberOfInvoices() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verifyBranchWiseNumberOfInvoices()[pri:160, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchWiseNumberOfInvoices" duration-ms="4864" started-at="2018-08-06T11:40:08Z" finished-at="2018-08-06T11:40:13Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="SKIP" signature="verifyBranchCode()[pri:0, instance:com.c2info.EG360_ItemBouncedReportTCs.TC_001_VerifyItemBouncedReport@42f93a98]" name="verifyBranchCode" duration-ms="1" started-at="2018-08-07T13:02:43Z" finished-at="2018-08-07T13:02:43Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[expected [224] but found [1512]]]>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=68.0.3440.84)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHETHANBIDARE-P', ip: '172.16.18.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\User1\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.84, webStorageEnabled: true}
+Session ID: a3b2d475b89d8e6412bec87d45778936
+*** Element info: {Using=id, value=otp}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [224] but found [1512]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchWiseNumberOfInvoices(TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.java:96)
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=68.0.3440.84)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHETHANBIDARE-P', ip: '172.16.18.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\User1\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.84, webStorageEnabled: true}
+Session ID: a3b2d475b89d8e6412bec87d45778936
+*** Element info: {Using=id, value=otp}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:365)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.c2info.EG360_UIactions.Dashboard.login(Dashboard.java:112)
+	at com.c2info.EG360_ItemBouncedReportTCs.TC_001_VerifyItemBouncedReport.setup(TC_001_VerifyItemBouncedReport.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:602)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
@@ -115,607 +175,15 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyBranchWiseNumberOfInvoices -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:13Z" finished-at="2018-08-06T11:40:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchWiseNumberOfInvoices status=FAILURE method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchWiseNumberOfInvoices()[pri:160, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:13Z" finished-at="2018-08-06T11:40:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseNumberOfCustomers() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verifyBranchwiseNumberOfCustomers()[pri:161, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchwiseNumberOfCustomers" duration-ms="4923" started-at="2018-08-06T11:40:13Z" finished-at="2018-08-06T11:40:18Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [3] but found [5]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [3] but found [5]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseNumberOfCustomers(TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.java:119)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBranchwiseNumberOfCustomers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:18Z" finished-at="2018-08-06T11:40:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchwiseNumberOfCustomers status=FAILURE method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseNumberOfCustomers()[pri:161, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:18Z" finished-at="2018-08-06T11:40:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseDiscAmount() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verifyBranchwiseDiscAmount()[pri:162, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchwiseDiscAmount" duration-ms="5176" started-at="2018-08-06T11:40:18Z" finished-at="2018-08-06T11:40:23Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [2637.28] but found [11578.29]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [2637.28] but found [11578.29]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseDiscAmount(TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.java:144)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBranchwiseDiscAmount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:23Z" finished-at="2018-08-06T11:40:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchwiseDiscAmount status=FAILURE method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseDiscAmount()[pri:162, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:23Z" finished-at="2018-08-06T11:40:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseInvoiceValAfterDisc() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verifyBranchwiseInvoiceValAfterDisc()[pri:163, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchwiseInvoiceValAfterDisc" duration-ms="5365" started-at="2018-08-06T11:40:23Z" finished-at="2018-08-06T11:40:29Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [233147.02] but found [1390661.06]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [233147.02] but found [1390661.06]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseInvoiceValAfterDisc(TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.java:169)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBranchwiseInvoiceValAfterDisc -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:29Z" finished-at="2018-08-06T11:40:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchwiseInvoiceValAfterDisc status=FAILURE method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseInvoiceValAfterDisc()[pri:163, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-08-06T11:40:29Z" finished-at="2018-08-06T11:40:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseInvoiceValTax() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verifyBranchwiseInvoiceValTax()[pri:164, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchwiseInvoiceValTax" duration-ms="5265" started-at="2018-08-06T11:40:29Z" finished-at="2018-08-06T11:40:34Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [260734.78] but found [1550258.27]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [260734.78] but found [1550258.27]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseInvoiceValTax(TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.java:194)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBranchwiseInvoiceValTax -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:34Z" finished-at="2018-08-06T11:40:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchwiseInvoiceValTax status=FAILURE method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseInvoiceValTax()[pri:164, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-08-06T11:40:34Z" finished-at="2018-08-06T11:40:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseTaxAmount() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verifyBranchwiseTaxAmount()[pri:165, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchwiseTaxAmount" duration-ms="3144" started-at="2018-08-06T11:40:34Z" finished-at="2018-08-06T11:40:37Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [28592.76] but found [28586.4]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [28592.76] but found [28586.4]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseTaxAmount(TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.java:219)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBranchwiseTaxAmount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:37Z" finished-at="2018-08-06T11:40:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchwiseTaxAmount status=FAILURE method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseTaxAmount()[pri:165, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:37Z" finished-at="2018-08-06T11:40:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseCGSTAmount() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verifyBranchwiseCGSTAmount()[pri:166, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchwiseCGSTAmount" duration-ms="5047" started-at="2018-08-06T11:40:37Z" finished-at="2018-08-06T11:40:42Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [13230.09] but found [78742.84]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [13230.09] but found [78742.84]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseCGSTAmount(TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.java:244)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBranchwiseCGSTAmount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:42Z" finished-at="2018-08-06T11:40:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchwiseCGSTAmount status=FAILURE method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseCGSTAmount()[pri:166, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:42Z" finished-at="2018-08-06T11:40:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseSGSTAmount() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verifyBranchwiseSGSTAmount()[pri:167, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchwiseSGSTAmount" duration-ms="4950" started-at="2018-08-06T11:40:42Z" finished-at="2018-08-06T11:40:47Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [13230.09] but found [78742.84]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [13230.09] but found [78742.84]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseSGSTAmount(TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.java:269)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBranchwiseSGSTAmount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:47Z" finished-at="2018-08-06T11:40:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchwiseSGSTAmount status=FAILURE method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseSGSTAmount()[pri:167, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:47Z" finished-at="2018-08-06T11:40:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseIGSTAmount() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verifyBranchwiseIGSTAmount()[pri:168, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchwiseIGSTAmount" duration-ms="3038" started-at="2018-08-06T11:40:47Z" finished-at="2018-08-06T11:40:50Z">
-          <exception class="java.sql.SQLSyntaxErrorException">
-            <message>
-              <![CDATA[You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd_date>='2018-07-01' and d_date<='2018-09-30' and n_cancel_flag=0' at line 1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd_date>='2018-07-01' and d_date<='2018-09-30' and n_cancel_flag=0' at line 1
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:95)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1247)
-	at com.c2info.EG360_Database.Database.getData(Database.java:34)
-	at com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseIGSTAmount(TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.java:287)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.sql.SQLSyntaxErrorException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBranchwiseIGSTAmount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:50Z" finished-at="2018-08-06T11:40:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchwiseIGSTAmount status=FAILURE method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseIGSTAmount()[pri:168, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:50Z" finished-at="2018-08-06T11:40:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseCessAmount() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyBranchwiseCessAmount()[pri:169, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchwiseCessAmount" duration-ms="4908" started-at="2018-08-06T11:40:50Z" finished-at="2018-08-06T11:40:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBranchwiseCessAmount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:55Z" finished-at="2018-08-06T11:40:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchwiseCessAmount status=SUCCESS method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseCessAmount()[pri:169, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:40:55Z" finished-at="2018-08-06T11:40:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseServiceChargeAmount() throws java.lang.InterruptedException,java.sql.SQLException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyBranchwiseServiceChargeAmount()[pri:170, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="verifyBranchwiseServiceChargeAmount" duration-ms="5249" started-at="2018-08-06T11:40:55Z" finished-at="2018-08-06T11:41:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBranchwiseServiceChargeAmount -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-06T11:41:00Z" finished-at="2018-08-06T11:41:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBranchwiseServiceChargeAmount status=SUCCESS method=TC_013_VerifySalesReportForCurrentQuarter_SalesReturn.verifyBranchwiseServiceChargeAmount()[pri:170, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn@c46bcd4]" name="endTest" is-config="true" duration-ms="389" started-at="2018-08-06T11:41:00Z" finished-at="2018-08-06T11:41:01Z">
+        </test-method> <!-- verifyBranchCode -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.EG360_ItemBouncedReportTCs.TC_001_VerifyItemBouncedReport@42f93a98]" name="endTest" is-config="true" duration-ms="199" started-at="2018-08-07T13:02:43Z" finished-at="2018-08-07T13:02:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.c2info.EG360_SalesReportsTCs.TC_013_VerifySalesReportForCurrentQuarter_SalesReturn -->
+      </class> <!-- com.c2info.EG360_ItemBouncedReportTCs.TC_001_VerifyItemBouncedReport -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

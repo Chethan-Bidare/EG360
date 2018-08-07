@@ -28,9 +28,10 @@ public class TC_011_VerifySalesReportForCurrentMonth_SalesReturn extends TestBas
 	public void verifyBranchName() throws InterruptedException, SQLException{
 		SalesReports sr = new SalesReports();
 		Database db = new Database();
+		Dashboard dashboard = new Dashboard();
 		String brCode ;
-		sr.clickOnMainMenu("Reports");
-		sr.clickOnReportsSubMenu("Sales Report");
+		dashboard.clickOnMainMenu("Reports");
+		dashboard.clickOnReportsSubMenu("Sales Report");
 		waitforPageToLoad();
 		sr.selectTypeDropdown("Sales Return");
 		sr.selectDateDropdown("Current Month");
