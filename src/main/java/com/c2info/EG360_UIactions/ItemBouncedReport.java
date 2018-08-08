@@ -11,7 +11,7 @@ public class ItemBouncedReport extends TestBase{
 	public HashMap<String,HashMap<String,String>> getBranchWiseDetails(){
 		
 		HashMap<String, HashMap<String,String>> branchWiseSalesDetails = new HashMap<String, HashMap<String,String>>();
-		int rowSize = 10 ; 
+		int rowSize = 3 ; 
 				//driver.findElements(By.xpath(".//*[@id='example']/tbody/tr")).size();
 		for(int i=1; i<=rowSize; i++){
 			String itemCode = driver.findElement(By.xpath(".//*[@id='example']/tbody/tr["+i+"]/td[5]")).getText();

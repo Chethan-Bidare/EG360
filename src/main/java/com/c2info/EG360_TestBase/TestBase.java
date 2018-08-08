@@ -138,7 +138,7 @@ public class TestBase {
 		}
 		else if(result.getStatus()==ITestResult.FAILURE){
 			test.log(LogStatus.FAIL, result.getName()+" Test is Failed");
-			test.log(LogStatus.FAIL, test.addScreenCapture(getScreenshot(Thread.currentThread().getStackTrace()[1].getMethodName())));
+			//test.log(LogStatus.FAIL, test.addScreenCapture(getScreenshot(Thread.currentThread().getStackTrace()[1].getMethodName())));
 		}
 		else if(result.getStatus()==ITestResult.SKIP){
 			test.log(LogStatus.SKIP, result.getName()+ "Test is skipped");

@@ -5,10 +5,12 @@
     <classes>
       <class name="com.c2info.EG360_ItemBouncedReportTCs.TC_001_VerifyItemBouncedReport">
         <methods>
+          <include name="verifyItemName"/>
           <include name="beforeMethod"/>
           <include name="setup"/>
-          <include name="verifyBranchCode"/>
           <include name="endTest"/>
+          <include name="verifyMRP"/>
+          <include name="verifyDate"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.c2info.EG360_ItemBouncedReportTCs.TC_001_VerifyItemBouncedReport -->

@@ -963,3 +963,79 @@
 2018-08-06 11:40:55 INFO  TestBase:158 - Test Started :verifyBranchwiseServiceChargeAmount
 2018-08-06 11:41:00 INFO  TestBase:164 - Test Finished :verifyBranchwiseServiceChargeAmount
 2018-08-07 13:02:24 INFO  TestBase:91 - ========== Initialiazation Completed =================
+2018-08-08 12:16:17 INFO  TestBase:91 - ========== Initialiazation Completed =================
+2018-08-08 12:16:21 INFO  TestBase:156 - Test Started :VerifyItemMfacName
+2018-08-08 12:17:12 INFO  TestBase:91 - ========== Initialiazation Completed =================
+2018-08-08 12:17:15 INFO  TestBase:156 - Test Started :VerifyItemMfacName
+2018-08-08 12:18:59 INFO  TestBase:91 - ========== Initialiazation Completed =================
+2018-08-08 12:19:03 INFO  TestBase:156 - Test Started :verifyBranchCode
+2018-08-08 12:19:54 INFO  TestBase:162 - Test Finished :verifyBranchCode
+2018-08-08 12:19:55 INFO  TestBase:156 - Test Started :verifyBouncedItemQty
+2018-08-08 12:21:55 INFO  TestBase:91 - ========== Initialiazation Completed =================
+2018-08-08 12:21:59 INFO  TestBase:156 - Test Started :verifyBranchCode
+2018-08-08 12:22:47 INFO  TestBase:162 - Test Finished :verifyBranchCode
+2018-08-08 12:22:47 INFO  TestBase:156 - Test Started :verifyBouncedItemQty
+2018-08-08 12:23:25 INFO  TestBase:162 - Test Finished :verifyBouncedItemQty
+2018-08-08 12:23:25 INFO  TestBase:156 - Test Started :verifyBranchName
+2018-08-08 12:23:58 INFO  TestBase:162 - Test Finished :verifyBranchName
+2018-08-08 12:23:58 INFO  TestBase:156 - Test Started :verifyDate
+2018-08-08 12:23:58 INFO  TestBase:162 - Test Finished :verifyDate
+2018-08-08 12:23:58 INFO  TestBase:156 - Test Started :VerifyItemMfacName
+2018-08-08 12:24:04 INFO  TestBase:162 - Test Finished :VerifyItemMfacName
+2018-08-08 12:24:04 INFO  TestBase:156 - Test Started :verifyItemCode
+2018-08-08 12:24:10 INFO  TestBase:162 - Test Finished :verifyItemCode
+2018-08-08 12:24:10 INFO  TestBase:156 - Test Started :verifyItemName
+2018-08-08 12:24:17 INFO  TestBase:162 - Test Finished :verifyItemName
+2018-08-08 12:24:17 INFO  TestBase:156 - Test Started :verifyMRP
+2018-08-08 12:24:24 INFO  TestBase:162 - Test Finished :verifyMRP
+2018-08-08 12:42:07 INFO  TestBase:91 - ========== Initialiazation Completed =================
+2018-08-08 12:42:11 INFO  TestBase:156 - Test Started :verifyBranchCode
+2018-08-08 12:42:57 INFO  TestBase:162 - Test Finished :verifyBranchCode
+2018-08-08 12:42:57 INFO  TestBase:156 - Test Started :verifyBouncedItemQty
+2018-08-08 12:43:33 INFO  TestBase:162 - Test Finished :verifyBouncedItemQty
+2018-08-08 12:43:33 INFO  TestBase:156 - Test Started :verifyBranchName
+2018-08-08 12:44:08 INFO  TestBase:162 - Test Finished :verifyBranchName
+2018-08-08 12:44:08 INFO  TestBase:156 - Test Started :verifyDate
+2018-08-08 12:44:14 INFO  TestBase:162 - Test Finished :verifyDate
+2018-08-08 12:44:14 INFO  TestBase:156 - Test Started :VerifyItemMfacName
+2018-08-08 12:44:19 INFO  TestBase:162 - Test Finished :VerifyItemMfacName
+2018-08-08 12:44:19 INFO  TestBase:156 - Test Started :verifyItemCode
+2018-08-08 12:44:25 INFO  TestBase:162 - Test Finished :verifyItemCode
+2018-08-08 12:44:25 INFO  TestBase:156 - Test Started :verifyItemName
+2018-08-08 12:44:31 INFO  TestBase:162 - Test Finished :verifyItemName
+2018-08-08 12:44:31 INFO  TestBase:156 - Test Started :verifyMRP
+2018-08-08 12:44:38 INFO  TestBase:162 - Test Finished :verifyMRP
+2018-08-08 13:00:43 INFO  TestBase:91 - ========== Initialiazation Completed =================
+2018-08-08 13:00:46 INFO  TestBase:156 - Test Started :verifyBranchCode
+2018-08-08 13:01:37 INFO  TestBase:162 - Test Finished :verifyBranchCode
+2018-08-08 13:01:37 INFO  TestBase:156 - Test Started :verifyBouncedItemQty
+2018-08-08 13:02:17 INFO  TestBase:162 - Test Finished :verifyBouncedItemQty
+2018-08-08 13:02:17 INFO  TestBase:156 - Test Started :verifyBranchName
+2018-08-08 13:02:53 INFO  TestBase:162 - Test Finished :verifyBranchName
+2018-08-08 13:02:53 INFO  TestBase:156 - Test Started :verifyDate
+2018-08-08 13:02:59 INFO  TestBase:162 - Test Finished :verifyDate
+2018-08-08 13:02:59 INFO  TestBase:156 - Test Started :VerifyItemMfacName
+2018-08-08 13:03:35 INFO  TestBase:162 - Test Finished :VerifyItemMfacName
+2018-08-08 13:03:35 INFO  TestBase:156 - Test Started :verifyItemCode
+2018-08-08 13:03:41 INFO  TestBase:162 - Test Finished :verifyItemCode
+2018-08-08 13:03:41 INFO  TestBase:156 - Test Started :verifyItemName
+2018-08-08 13:03:48 INFO  TestBase:162 - Test Finished :verifyItemName
+2018-08-08 13:03:48 INFO  TestBase:156 - Test Started :verifyMRP
+2018-08-08 13:03:55 INFO  TestBase:162 - Test Finished :verifyMRP
+2018-08-08 13:09:02 INFO  TestBase:91 - ========== Initialiazation Completed =================
+2018-08-08 13:09:06 INFO  TestBase:156 - Test Started :verifyBranchCode
+2018-08-08 13:09:19 INFO  TestBase:162 - Test Finished :verifyBranchCode
+2018-08-08 13:09:19 INFO  TestBase:156 - Test Started :verifyBouncedItemQty
+2018-08-08 13:09:26 INFO  TestBase:162 - Test Finished :verifyBouncedItemQty
+2018-08-08 13:09:26 INFO  TestBase:156 - Test Started :verifyBranchName
+2018-08-08 13:09:30 INFO  TestBase:162 - Test Finished :verifyBranchName
+2018-08-08 13:09:30 INFO  TestBase:156 - Test Started :verifyDate
+2018-08-08 13:09:33 INFO  TestBase:162 - Test Finished :verifyDate
+2018-08-08 13:09:33 INFO  TestBase:156 - Test Started :VerifyItemMfacName
+2018-08-08 13:09:37 INFO  TestBase:162 - Test Finished :VerifyItemMfacName
+2018-08-08 13:09:37 INFO  TestBase:156 - Test Started :verifyItemCode
+2018-08-08 13:09:39 INFO  TestBase:162 - Test Finished :verifyItemCode
+2018-08-08 13:09:39 INFO  TestBase:156 - Test Started :verifyItemName
+2018-08-08 13:09:44 INFO  TestBase:162 - Test Finished :verifyItemName
+2018-08-08 13:09:44 INFO  TestBase:156 - Test Started :verifyMRP
+2018-08-08 13:09:48 INFO  TestBase:162 - Test Finished :verifyMRP
