@@ -34,7 +34,7 @@ public class TC_018_VerifySalesAndSalesReturnReportForCurrentMonth extends TestB
 		dashboard.clickOnReportsSubMenu("Sales Report");
 		waitforPageToLoad();
 		sr.selectTypeDropdown("Sales & Sales Return");
-		sr.selectDateDropdown("Last Week");
+		sr.selectDateDropdown("Current Month");
 		sr.clickOnViewReportButton();
 		waitforPageToLoad();
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();

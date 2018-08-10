@@ -34,7 +34,7 @@ public class TC_021_VerifySalesAndSalesReturnReportForCurrentYear extends TestBa
 		dashboard.clickOnReportsSubMenu("Sales Report");
 		waitforPageToLoad();
 		sr.selectTypeDropdown("Sales & Sales Return");
-		sr.selectDateDropdown("Last Week");
+		sr.selectDateDropdown("Current Year");
 		sr.clickOnViewReportButton();
 		waitforPageToLoad();
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();
@@ -72,7 +72,7 @@ public class TC_021_VerifySalesAndSalesReturnReportForCurrentYear extends TestBa
 			while(val.next()){
 				actualValue = val.getString(1);
 			}
-			System.out.println("ActualValue = "+actualValue+" ====== ExpectedValue="+expectedValue);
+			
 			Assert.assertEquals(actualValue, expectedValue);
 		}
 	}
@@ -126,7 +126,7 @@ public class TC_021_VerifySalesAndSalesReturnReportForCurrentYear extends TestBa
 			while(val.next()){
 				actualValue = val.getString(1);
 			}
-			System.out.println("ActualValue = "+actualValue+" ====== ExpectedValue="+expectedValue);
+			
 			Assert.assertEquals(actualValue, expectedValue);
 		}
 	}
@@ -158,7 +158,7 @@ public class TC_021_VerifySalesAndSalesReturnReportForCurrentYear extends TestBa
 				actualValue = val.getDouble(1);
 				actualValue = Math.round(actualValue * 100)/100d ;
 			}
-			System.out.println("ActualValue = "+actualValue+" ====== ExpectedValue="+expectedValue);
+			
 			Assert.assertEquals(actualValue, expectedValue);
 		}
 	}
@@ -190,7 +190,7 @@ public class TC_021_VerifySalesAndSalesReturnReportForCurrentYear extends TestBa
 				actualValue = val.getDouble(1);
 				actualValue = Math.round(actualValue * 100)/100d ;
 			}
-			System.out.println("ActualValue = "+actualValue+" ====== ExpectedValue="+expectedValue);
+			
 			Assert.assertEquals(actualValue, expectedValue);
 		}
 	}
@@ -222,7 +222,7 @@ public class TC_021_VerifySalesAndSalesReturnReportForCurrentYear extends TestBa
 				actualValue = val.getDouble(1);
 				actualValue = Math.round(actualValue * 100)/100d ;
 			}
-			System.out.println("ActualValue = "+actualValue+" ====== ExpectedValue="+expectedValue);
+			
 			Assert.assertEquals(actualValue, expectedValue);
 		}
 	}
@@ -254,7 +254,7 @@ public class TC_021_VerifySalesAndSalesReturnReportForCurrentYear extends TestBa
 				actualValue = val.getDouble(1);
 				actualValue = Math.round(actualValue * 100)/100d ;
 			}
-			System.out.println("ActualValue = "+actualValue+" ====== ExpectedValue="+expectedValue);
+			
 			Assert.assertEquals(actualValue, expectedValue);
 		}
 	}
@@ -286,7 +286,7 @@ public class TC_021_VerifySalesAndSalesReturnReportForCurrentYear extends TestBa
 				actualValue = val.getDouble(1);
 				actualValue = Math.round(actualValue * 100)/100d ;
 			}
-			System.out.println("ActualValue = "+actualValue+" ====== ExpectedValue="+expectedValue);
+			
 			Assert.assertEquals(actualValue, expectedValue);
 		}
 	}
@@ -318,7 +318,7 @@ public class TC_021_VerifySalesAndSalesReturnReportForCurrentYear extends TestBa
 				actualValue = val.getDouble(1);
 				actualValue = Math.round(actualValue * 100)/100d ;
 			}
-			System.out.println("ActualValue = "+actualValue+" ====== ExpectedValue="+expectedValue);
+			
 			Assert.assertEquals(actualValue, expectedValue);
 		}
 	}
@@ -350,7 +350,7 @@ public class TC_021_VerifySalesAndSalesReturnReportForCurrentYear extends TestBa
 				actualValue = val.getDouble(1);
 				actualValue = Math.round(actualValue * 100)/100d ;
 			}
-			System.out.println("ActualValue = "+actualValue+" ====== ExpectedValue="+expectedValue);
+			
 			Assert.assertEquals(actualValue, expectedValue);
 		}
 	}
@@ -382,7 +382,7 @@ public class TC_021_VerifySalesAndSalesReturnReportForCurrentYear extends TestBa
 				actualValue = val.getDouble(1);
 				actualValue = Math.round(actualValue * 100)/100d ;
 			}
-			System.out.println("ActualValue = "+actualValue+" ====== ExpectedValue="+expectedValue);
+			
 			Assert.assertEquals(actualValue, expectedValue);
 		}
 	}
@@ -414,7 +414,6 @@ public class TC_021_VerifySalesAndSalesReturnReportForCurrentYear extends TestBa
 				actualValue = val.getDouble(1);
 				actualValue = Math.round(actualValue * 100)/100d ;
 			}
-			System.out.println("ActualValue = "+actualValue+" ====== ExpectedValue="+expectedValue);
 			Assert.assertEquals(actualValue, expectedValue);
 		}
 	}

@@ -34,7 +34,7 @@ public class TC_020_VerifySalesAndSalesReturnReportForCurrentQuarter extends Tes
 		dashboard.clickOnReportsSubMenu("Sales Report");
 		waitforPageToLoad();
 		sr.selectTypeDropdown("Sales & Sales Return");
-		sr.selectDateDropdown("Last Week");
+		sr.selectDateDropdown("Current Quarter");
 		sr.clickOnViewReportButton();
 		waitforPageToLoad();
 		Set<String> set = sr.getBranchWiseSalesDetails().keySet();

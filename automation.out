@@ -1039,3 +1039,15 @@
 2018-08-08 13:09:44 INFO  TestBase:162 - Test Finished :verifyItemName
 2018-08-08 13:09:44 INFO  TestBase:156 - Test Started :verifyMRP
 2018-08-08 13:09:48 INFO  TestBase:162 - Test Finished :verifyMRP
+2018-08-10 10:11:01 INFO  TestBase:91 - ========== Initialiazation Completed =================
+2018-08-10 10:11:05 INFO  TestBase:156 - Test Started :verifyBranchName
+2018-08-10 10:12:26 INFO  TestBase:162 - Test Finished :verifyBranchName
+2018-08-10 10:12:26 INFO  TestBase:156 - Test Started :verifyBranchShortName
+2018-08-10 10:13:26 INFO  TestBase:162 - Test Finished :verifyBranchShortName
+2018-08-10 10:13:26 INFO  TestBase:156 - Test Started :verifyBranchWiseNumberOfInvoices
+2018-08-10 10:14:26 INFO  TestBase:162 - Test Finished :verifyBranchWiseNumberOfInvoices
+2018-08-10 10:14:26 INFO  TestBase:156 - Test Started :verifyBranchwiseNumberOfCustomers
+2018-08-10 10:15:26 INFO  TestBase:162 - Test Finished :verifyBranchwiseNumberOfCustomers
+2018-08-10 10:15:26 INFO  TestBase:156 - Test Started :verifyBranchwiseDiscAmount
+2018-08-10 10:16:26 INFO  TestBase:162 - Test Finished :verifyBranchwiseDiscAmount
+2018-08-10 10:16:26 INFO  TestBase:156 - Test Started :verifyBranchwiseInvoiceValAfterDisc
